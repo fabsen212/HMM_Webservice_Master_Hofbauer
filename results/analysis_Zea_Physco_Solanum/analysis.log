@@ -1,0 +1,950 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  results/analysis_Zea_Physco_Solanum/PF00024.hmm
+# target sequence database:        database/proteins/Zea_mays.faa
+# per-dom hits tabular output:     results/analysis_Zea_Physco_Solanum/hmmsearch_Zea_mays.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PAN_1  [M=76]
+Accession:   PF00024.32
+Description: PAN domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    8.8e-07   31.4   6.1      0.037   16.6   1.2    2.7  2  Zm00001d002172_T001.RefGen_V4  
+    1.3e-05   27.7   1.0    2.5e-05   26.8   1.0    1.5  1  Zm00001d037783_T001.RefGen_V4  
+    1.7e-05   27.4   0.2    3.7e-05   26.2   0.2    1.5  1  Zm00001d016681_T001.RefGen_V4  
+    2.4e-05   26.9   0.7    4.8e-05   25.9   0.7    1.4  1  Zm00001d051205_T001.RefGen_V4  
+    2.4e-05   26.9   0.0    4.2e-05   26.1   0.0    1.3  1  Zm00001d032161_T001.RefGen_V4  
+    2.4e-05   26.8   2.6    5.6e-05   25.7   2.6    1.6  1  Zm00001d021737_T001.RefGen_V4  
+    0.00014   24.4   1.0    0.00033   23.2   1.0    1.5  1  Zm00001d018185_T001.RefGen_V4  
+    0.00015   24.3   1.0    0.00033   23.2   1.0    1.5  1  Zm00001d018182_T001.RefGen_V4  
+    0.00017   24.1   1.1    0.00044   22.8   1.1    1.7  1  Zm00001d037973_T001.RefGen_V4  
+    0.00021   23.8   1.0     0.0005   22.6   1.0    1.6  1  Zm00001d037810_T025.RefGen_V4  
+    0.00022   23.8   0.1    0.00052   22.6   0.1    1.6  1  Zm00001d025390_T001.RefGen_V4  
+    0.00024   23.6   0.3     0.0005   22.6   0.3    1.5  1  Zm00001d045207_T001.RefGen_V4  
+    0.00032   23.3   1.0    0.00075   22.0   1.0    1.6  1  Zm00001d037810_T026.RefGen_V4  
+    0.00041   22.9   1.0    0.00094   21.7   1.0    1.5  1  Zm00001d037810_T024.RefGen_V4  
+    0.00053   22.5   1.0     0.0013   21.3   1.0    1.6  1  Zm00001d037810_T008.RefGen_V4  
+    0.00057   22.4   1.0     0.0014   21.2   1.0    1.6  1  Zm00001d037810_T002.RefGen_V4  
+    0.00057   22.4   1.0     0.0014   21.2   1.0    1.6  1  Zm00001d037810_T009.RefGen_V4  
+     0.0012   21.4   0.6     0.0033   20.0   0.6    1.7  1  Zm00001d039327_T001.RefGen_V4  
+     0.0013   21.3   0.3     0.0032   20.0   0.3    1.6  1  Zm00001d052513_T001.RefGen_V4  
+     0.0014   21.2   2.7     0.0025   20.4   2.7    1.4  1  Zm00001d051853_T001.RefGen_V4  
+     0.0015   21.1   0.5      0.003   20.1   0.5    1.4  1  Zm00001d046370_T001.RefGen_V4  
+     0.0017   20.9   0.1     0.0041   19.7   0.1    1.6  1  Zm00001d043923_T001.RefGen_V4  
+     0.0018   20.9   0.2     0.0037   19.8   0.2    1.5  1  Zm00001d003723_T001.RefGen_V4  
+     0.0019   20.8   0.6     0.0049   19.4   0.6    1.7  1  Zm00001d016223_T001.RefGen_V4  
+     0.0021   20.6   0.1     0.0048   19.5   0.1    1.5  1  Zm00001d031230_T001.RefGen_V4  
+     0.0045   19.6   0.6     0.0092   18.6   0.6    1.4  1  Zm00001d020703_T001.RefGen_V4  
+     0.0067   19.0   1.2      0.015   17.9   1.2    1.6  1  Zm00001d011551_T001.RefGen_V4  
+     0.0068   19.0   0.2      0.016   17.8   0.2    1.5  1  Zm00001d045950_T002.RefGen_V4  
+     0.0068   19.0   0.2      0.016   17.8   0.2    1.5  1  Zm00001d045950_T001.RefGen_V4  
+     0.0068   19.0   0.2      0.016   17.8   0.2    1.5  1  Zm00001d045950_T004.RefGen_V4  
+     0.0069   19.0   0.2      0.016   17.8   0.2    1.5  1  Zm00001d045950_T003.RefGen_V4  
+     0.0072   18.9   0.1     0.0072   18.9   0.1    1.7  1  Zm00001d023394_T001.RefGen_V4  
+
+
+Domain annotation for each sequence (and alignments):
+>> Zm00001d002172_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   0.3   9.6e-06     0.039       3      40 ..      58      96 ..      49     128 .. 0.85
+   2 !   16.6   1.2   9.1e-06     0.037      20      50 ..     756     794 ..     734     811 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 9.6e-06
+                                   ECEEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEE CS
+                          PAN_1  3 fervpgsslegedkktv.tvssaeeCaqrCaeekrCrsf 40
+                                   f+ v+g++l ++d+ tv   +++e+C++rC+++ +C ++
+  Zm00001d002172_T001.RefGen_V4 58 FKVVQGVKLPDTDNTTVdMGATLEQCRERCLANCSCVAY 96
+                                   8999*************8889***********9998654 PP
+
+  == domain 2  score: 16.6 bits;  conditional E-value: 9.1e-06
+                                    ECSSHHHHHHHHHHSTT-SEEEEETT........TTEEE CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnek........skkCl 50 
+                                    +  s e+Ca++C+++ +C+++ Y +         +++Cl
+  Zm00001d002172_T001.RefGen_V4 756 RNRSFEQCAAECSKNCSCTAYAYANLsssgamedQSRCL 794
+                                    66799******************9986666666555565 PP
+
+>> Zm00001d037783_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   1.0   6.2e-09   2.5e-05       2      52 ..     351     401 ..     342     420 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 26.8 bits;  conditional E-value: 6.2e-09
+                                    GECEEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEE CS
+                          PAN_1   2 sfervpgsslegedkktv.tvssaeeCaqrCaeekrCrsftYnekskkCllk 52 
+                                     f+r+p++++ g+d++ + +v s++ C+  C  + +C+ f+Y e +++C+ k
+  Zm00001d037783_T001.RefGen_V4 351 RFVRLPNTDFWGSDQQHLlSV-SLRTCRDICISDCTCKGFQYQEGTGSCYPK 401
+                                    599*********999999899.***************************976 PP
+
+>> Zm00001d016681_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   0.2     9e-09   3.7e-05      17      56 ..     370     409 ..     358     425 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 26.2 bits;  conditional E-value: 9e-09
+                                    EEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  17 ktvtvssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                     + +++sa++C +rC+ + +C  + Y + ++ C++++  +
+  Zm00001d016681_T001.RefGen_V4 370 RSEQAASATDCEARCERNCSCWGAVYSNGTGVCYVMDYPA 409
+                                    455788*****************************98655 PP
+
+>> Zm00001d051205_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.7   1.2e-08   4.8e-05      18      57 ..     303     342 ..     295     357 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 25.9 bits;  conditional E-value: 1.2e-08
+                                    EEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTS CS
+                          PAN_1  18 tvtvssaeeCaqrCaeekrCrsftYnekskkCllksessg 57 
+                                    + +++s+++C +rC+++ +C  + Y ++++ C++++  ++
+  Zm00001d051205_T001.RefGen_V4 303 SEQAASTTDCEARCEHNCSCWGAVYSNRTGVCYVMDYPAQ 342
+                                    55788*****************************987665 PP
+
+>> Zm00001d032161_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.1   0.0     1e-08   4.2e-05      17      56 ..     176     215 ..     163     231 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 26.1 bits;  conditional E-value: 1e-08
+                                    EEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  17 ktvtvssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                     + +++sa++C +rC+ + +C  + Y + ++ C++++  +
+  Zm00001d032161_T001.RefGen_V4 176 RSEQAASATDCEARCERNYSCWGAVYSNGTGVCYVMDYPA 215
+                                    455788*****************************98655 PP
+
+>> Zm00001d021737_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   2.6   1.4e-08   5.6e-05       5      58 ..     361     411 ..     345     425 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 25.7 bits;  conditional E-value: 1.4e-08
+                                    EEEEEEEESEEEEEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                          PAN_1   5 rvpgsslegedkktvtvssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                    ++++++l ++++ +v++ s ++C+ +C+++ +C ++tYn++   C++ +++   
+  Zm00001d021737_T001.RefGen_V4 361 TMANVRLPDNAQTAVAA-SSQDCQVACLNNCSCNAYTYNSS--GCFVWHGDLIN 411
+                                    56778888878888866.**********************9..99999887655 PP
+
+>> Zm00001d018185_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   1.0     8e-08   0.00033      22      65 ..     369     414 ..     356     422 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 8e-08
+                                    SSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS..TSEEEEE CS
+                          PAN_1  22 ssaeeCaqrCaeekrCrsftYnekskkCllksessgs..sprlkrk 65 
+                                     +++ C+++C+ + +Cr + Y+ +s +C+l +++ gs  +++ +++
+  Zm00001d018185_T001.RefGen_V4 369 GNVSSCQALCTSNCSCRGYFYDDSSLSCYLVKHELGSfmNADSTKG 414
+                                    57899**************************999998776665554 PP
+
+>> Zm00001d018182_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   1.0   8.1e-08   0.00033      22      65 ..     376     421 ..     363     429 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 8.1e-08
+                                    SSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS..TSEEEEE CS
+                          PAN_1  22 ssaeeCaqrCaeekrCrsftYnekskkCllksessgs..sprlkrk 65 
+                                     +++ C+++C+ + +Cr + Y+ +s +C+l +++ gs  +++ +++
+  Zm00001d018182_T001.RefGen_V4 376 GNVSSCQALCTSNCSCRGYFYDDSSLSCYLVKHELGSfmNADSTKG 421
+                                    57899**************************999998776665554 PP
+
+>> Zm00001d037973_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   1.1   1.1e-07   0.00044       3      53 ..     368     418 ..     358     434 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 22.8 bits;  conditional E-value: 1.1e-07
+                                    ECEEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEE CS
+                          PAN_1   3 fervpgsslegedkktv.tvssaeeCaqrCaeekrCrsftYnekskkCllks 53 
+                                    f  ++++++ g+d++ + +v s+e C   C+ + +C+ ++Y e +++C+ ks
+  Zm00001d037973_T001.RefGen_V4 368 FLELRNTDYWGSDQERIeKV-SLETCKDTCLRDCSCKGVQYQEGNGTCYPKS 418
+                                    56678889999999999788.***************************9875 PP
+
+>> Zm00001d037810_T025.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   1.0   1.2e-07    0.0005      20      59 ..     139     178 ..     122     194 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 1.2e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS..T CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs..s 59 
+                                    +++s+++C ++C+++ +C++++Yn++  +C++ +++  s  +
+  Zm00001d037810_T025.RefGen_V4 139 AAASQSDCEEACRASCSCTAYSYNSS--RCSVWHGELFSvnR 178
+                                    4679*********************9..9*999998877442 PP
+
+>> Zm00001d025390_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   0.1   1.3e-07   0.00052       5      55 ..     361     413 ..     357     427 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 1.3e-07
+                                    EEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETT.TTEEEEEEST CS
+                          PAN_1   5 rvpgsslegedkktv.tvssaeeCaqrCaeekrCrsftYnek.skkCllkses 55 
+                                     +pg++l ++  +++ ++ssa eCaq+C+ +++C+   Y +  +  C+l +++
+  Zm00001d025390_T001.RefGen_V4 361 SMPGVRLPQNGRQAMpNASSAIECAQACLSSNNCSCTAYSYGgEDGCSLWHGE 413
+                                    67899999999*******************99977777777667999998875 PP
+
+>> Zm00001d045207_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.6   0.3   1.2e-07    0.0005       3      52 ..     338     387 ..     327     392 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 22.6 bits;  conditional E-value: 1.2e-07
+                                    ECEEEEEEEESEEEEEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEE CS
+                          PAN_1   3 fervpgsslegedkktvtvssaeeCaqrCaeekrCrsftYnekskkCllk 52 
+                                    f++++g++l g+d +  ++    +C+ +C+++++C++f Y + +++C+ k
+  Zm00001d045207_T001.RefGen_V4 338 FRKLTGTDLWGYDLNYSKLVPWLMCRNMCLNDTDCQAFGYRKGTGECYPK 387
+                                    667777777777777775557779***********************976 PP
+
+>> Zm00001d037810_T026.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   1.0   1.8e-07   0.00075      20      59 ..     296     335 ..     279     351 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 22.0 bits;  conditional E-value: 1.8e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS..T CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs..s 59 
+                                    +++s+++C ++C+++ +C++++Yn++  +C++ +++  s  +
+  Zm00001d037810_T026.RefGen_V4 296 AAASQSDCEEACRASCSCTAYSYNSS--RCSVWHGELFSvnR 335
+                                    4679*********************9..99999998877442 PP
+
+>> Zm00001d037810_T024.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   1.0   2.3e-07   0.00094      20      59 ..     436     475 ..     419     491 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 2.3e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS..T CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs..s 59 
+                                    +++s+++C ++C+++ +C++++Yn++  +C++ +++  s  +
+  Zm00001d037810_T024.RefGen_V4 436 AAASQSDCEEACRASCSCTAYSYNSS--RCSVWHGELFSvnR 475
+                                    4679*********************9..99999998877442 PP
+
+>> Zm00001d037810_T008.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   1.0   3.1e-07    0.0013      20      59 ..     436     475 ..     419     491 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 3.1e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS..T CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs..s 59 
+                                    +++s+++C ++C+++ +C++++Yn++  +C++ +++  s  +
+  Zm00001d037810_T008.RefGen_V4 436 AAASQSDCEEACRASCSCTAYSYNSS--RCSVWHGELFSvnR 475
+                                    4679*********************9..99999998877442 PP
+
+>> Zm00001d037810_T002.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.2   1.0   3.3e-07    0.0014      20      58 ..     436     472 ..     419     491 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 21.2 bits;  conditional E-value: 3.3e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                    +++s+++C ++C+++ +C++++Yn++  +C++ +++  s
+  Zm00001d037810_T002.RefGen_V4 436 AAASQSDCEEACRASCSCTAYSYNSS--RCSVWHGELFS 472
+                                    4679*********************9..99999998877 PP
+
+>> Zm00001d037810_T009.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.2   1.0   3.3e-07    0.0014      20      58 ..     436     472 ..     419     491 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 21.2 bits;  conditional E-value: 3.3e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                    +++s+++C ++C+++ +C++++Yn++  +C++ +++  s
+  Zm00001d037810_T009.RefGen_V4 436 AAASQSDCEEACRASCSCTAYSYNSS--RCSVWHGELFS 472
+                                    4679*********************9..99999998877 PP
+
+>> Zm00001d039327_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.6   7.9e-07    0.0033      19      51 ..     118     147 ..     108     164 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 7.9e-07
+                                    EECSSHHHHHHHHHHSTT-SEEEEETTTTEEEE CS
+                          PAN_1  19 vtvssaeeCaqrCaeekrCrsftYnekskkCll 51 
+                                    ++v++++eC ++C+ + +C++f Yn++   Cll
+  Zm00001d039327_T001.RefGen_V4 118 LEVTNMSECESACLRDCTCTAFAYNAS---CLL 147
+                                    47899********************98...766 PP
+
+>> Zm00001d052513_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.3   7.8e-07    0.0032      20      58 ..     372     410 ..     353     425 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 20.0 bits;  conditional E-value: 7.8e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                    t  +aeeC ++Ca + +C ++ +  +s+ C+l +   ++
+  Zm00001d052513_T001.RefGen_V4 372 TNRTAEECEAACAGNCSCWAAVHSGASGYCYLIDFPVET 410
+                                    4459****************************9887766 PP
+
+>> Zm00001d051853_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.4   2.7   6.1e-07    0.0025      20      69 ..      75     123 ..      72     130 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 20.4 bits;  conditional E-value: 6.1e-07
+                                    ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS.TSEEEEEEEEE CS
+                          PAN_1  20 tvssaeeCaqrCaeekrCrsftYnekskkCllksessgs.sprlkrksekv 69 
+                                    ++ s e+C+  C ++ +C+++tYn +   C++ +++    + + + +  ++
+  Zm00001d051853_T001.RefGen_V4  75 NAGSPEDCQVTCFNSCSCSAYTYNDT--DCFVWHGDLVNlQEQHTSDGGGT 123
+                                    57899*********************..9*999999877543433335555 PP
+
+>> Zm00001d046370_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.5   7.3e-07     0.003       2      53 ..     338     389 ..     332     402 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 20.1 bits;  conditional E-value: 7.3e-07
+                                    GECEEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEE CS
+                          PAN_1   2 sfervpgsslegedkktv.tvssaeeCaqrCaeekrCrsftYnekskkCllks 53 
+                                    +f ++p++++ g+d  ++ +v s++ C ++C+++ +C+ f Y e  + C+ ks
+  Zm00001d046370_T001.RefGen_V4 338 DFAKLPHTDFLGYDMTAHhSV-SLDFCKKECLHDCNCKGFAYWEGIGDCYPKS 389
+                                    79999*******999999677.***************************9876 PP
+
+>> Zm00001d043923_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.1   9.9e-07    0.0041      16      52 ..     360     396 ..     346     406 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 9.9e-07
+                                    EEEE.ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEE CS
+                          PAN_1  16 kktv.tvssaeeCaqrCaeekrCrsftYnekskkCllk 52 
+                                     ++  +v   e C+ +C++++ C sftY   ++ C+ k
+  Zm00001d043923_T001.RefGen_V4 360 LSSNeSV-PFEACRDMCLNSSACLSFTYKGGDGWCYTK 396
+                                    4444344.6799*********************99976 PP
+
+>> Zm00001d003723_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.2   9.1e-07    0.0037       8      55 ..     358     404 ..     352     422 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 19.8 bits;  conditional E-value: 9.1e-07
+                                    EEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEEST CS
+                          PAN_1   8 gsslegedkktv.tvssaeeCaqrCaeekrCrsftYnekskkCllkses 55 
+                                    g +l ++ k    ++ssa++Caq C+ + +C++++Y ++   C++ +++
+  Zm00001d003723_T001.RefGen_V4 358 GIRLPQNGKAMPaDASSAKQCAQVCLSSCSCTAYSYGKD--GCSIWHGE 404
+                                    55666666677779**********************999..89888766 PP
+
+>> Zm00001d016223_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.6   1.2e-06    0.0049       8      54 ..     393     444 ..     384     463 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 1.2e-06
+                                    EEEEES..EEEEEEECSSHHHHHHHHHHSTT-SEEEEETT....TTEEEEEES CS
+                          PAN_1   8 gssleg..edkktvtvssaeeCaqrCaeekrCrsftYnek....skkCllkse 54 
+                                    ++++ +  ++++t+t+ ++e C ++C++  +C+++ + ++    +++C+l +e
+  Zm00001d016223_T001.RefGen_V4 393 NVTYFSlaNNNWTWTT-DEESCKEACLKTCSCKAVFFQHQgdvsNGSCHLVPE 444
+                                    5555555578888988.**************************9*****9876 PP
+
+>> Zm00001d031230_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.5   0.1   1.2e-06    0.0048      22      58 ..     455     491 ..     440     503 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 19.5 bits;  conditional E-value: 1.2e-06
+                                    SSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                          PAN_1  22 ssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                    +++  C+ +C+++ +C  f Y ++s++C+l +   gs
+  Zm00001d031230_T001.RefGen_V4 455 DELPACRDLCSANCSCLGFFYKNTSGSCFLLHNRIGS 491
+                                    56678*************************9987766 PP
+
+>> Zm00001d020703_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.6   0.6   2.2e-06    0.0092      18      56 ..     375     412 ..     362     429 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 18.6 bits;  conditional E-value: 2.2e-06
+                                    EEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  18 tvtvssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                    +  v +++ C+ +C+ + +C ++ Y++ s++C+l  +++
+  Zm00001d020703_T001.RefGen_V4 375 KAGV-NHNACRGLCSTSCGCLAYFYDNLSQSCYLIQDKQ 412
+                                    5567.899**************************98876 PP
+
+>> Zm00001d011551_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   1.2   3.7e-06     0.015       3      45 ..     343     385 ..     330     398 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 3.7e-06
+                                    ECEEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETT CS
+                          PAN_1   3 fervpgsslegedkktv.tvssaeeCaqrCaeekrCrsftYnek 45 
+                                    f+ vp++++ g+d+    +v + e+C ++C+e+ +C +f+Y + 
+  Zm00001d011551_T001.RefGen_V4 343 FVEVPHTDFFGYDVAYNtSV-TFEHCKKLCLEMCSCAAFSYRPF 385
+                                    89999******999998566.********************875 PP
+
+>> Zm00001d045950_T002.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   3.8e-06     0.016      21      56 ..     379     413 ..     361     427 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 3.8e-06
+                                    CSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  21 vssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                    + +++ C+ +C  + +C ++ ++++s++C+l+++ +
+  Zm00001d045950_T002.RefGen_V4 379 T-NLTGCRNACMGNCSCIAVFFDQTSGNCFLFDQIG 413
+                                    4.7889**************************9755 PP
+
+>> Zm00001d045950_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   3.8e-06     0.016      21      56 ..     382     416 ..     364     430 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 3.8e-06
+                                    CSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  21 vssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                    + +++ C+ +C  + +C ++ ++++s++C+l+++ +
+  Zm00001d045950_T001.RefGen_V4 382 T-NLTGCRNACMGNCSCIAVFFDQTSGNCFLFDQIG 416
+                                    4.7889**************************9755 PP
+
+>> Zm00001d045950_T004.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   3.8e-06     0.016      21      56 ..     382     416 ..     364     430 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 3.8e-06
+                                    CSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  21 vssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                    + +++ C+ +C  + +C ++ ++++s++C+l+++ +
+  Zm00001d045950_T004.RefGen_V4 382 T-NLTGCRNACMGNCSCIAVFFDQTSGNCFLFDQIG 416
+                                    4.7889**************************9755 PP
+
+>> Zm00001d045950_T003.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.8   0.2   3.8e-06     0.016      21      56 ..     388     422 ..     370     436 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 17.8 bits;  conditional E-value: 3.8e-06
+                                    CSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTT CS
+                          PAN_1  21 vssaeeCaqrCaeekrCrsftYnekskkCllksess 56 
+                                    + +++ C+ +C  + +C ++ ++++s++C+l+++ +
+  Zm00001d045950_T003.RefGen_V4 388 T-NLTGCRNACMGNCSCIAVFFDQTSGNCFLFDQIG 422
+                                    4.7889**************************9755 PP
+
+>> Zm00001d023394_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.9   0.1   1.8e-06    0.0072      19      58 ..     386     424 ..     366     438 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 18.9 bits;  conditional E-value: 1.8e-06
+                                    EECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                          PAN_1  19 vtvssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                    +++ +a+ C  +Ca + +Cr + Yn +s+ C+l +   ++
+  Zm00001d023394_T001.RefGen_V4 386 TNT-TADGCELACAGNCTCRGALYNGASGYCYLIDFPVET 424
+                                    344.9999*************************8876655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (76 nodes)
+Target sequences:                     131496  (63319919 residues searched)
+Passed MSV filter:                      3920  (0.0298108); expected 2629.9 (0.02)
+Passed bias filter:                     1975  (0.0150195); expected 2629.9 (0.02)
+Passed Vit filter:                       228  (0.00173389); expected 131.5 (0.001)
+Passed Fwd filter:                        88  (0.000669222); expected 1.3 (1e-05)
+Initial search space (Z):             131496  [actual number of targets]
+Domain search space  (domZ):              32  [number of targets reported over threshold]
+# CPU time: 0.62u 0.02s 00:00:00.64 Elapsed: 00:00:00.27
+# Mc/sec: 17241.51
+//
+[ok]
+
+Running hmmsearch on database/proteins/Zea_mays.faa with model results/analysis_Zea_Physco_Solanum/PF00024.hmm
+Filtered results saved in results/analysis_Zea_Physco_Solanum/hmmsearch_Zea_mays_filtered.txt
+Found 32 genes after filtering.
+Gene IDs written to results/analysis_Zea_Physco_Solanum/found_genes_Zea_mays.txt
+
+============================================================
+New task started in results/analysis_Zea_Physco_Solanum
+Start HMM search: Zea_mays.faa
+Filter: E=1e-2, Coverage=20, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Zea_Physco_Solanum
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  results/analysis_Zea_Physco_Solanum/PF00024.hmm
+# target sequence database:        database/proteins/Solanum_lycopersicum.faa
+# per-dom hits tabular output:     results/analysis_Zea_Physco_Solanum/hmmsearch_Solanum_lycopersicum.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PAN_1  [M=76]
+Accession:   PF00024.32
+Description: PAN domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    2.9e-07   31.1   1.6    2.9e-07   31.1   1.6    2.9  2  Solyc03g063650.1.1.iTAGv2.3  
+    7.7e-06   26.6   0.0    2.2e-05   25.1   0.0    1.7  1  Solyc09g011330.1.1.iTAGv2.3  
+      4e-05   24.3   0.6    8.7e-05   23.2   0.6    1.5  1  Solyc09g009150.1.1.iTAGv2.3  
+    0.00016   22.4   1.5    0.00037   21.2   1.5    1.6  1  Solyc04g078410.2.1.iTAGv2.3  
+    0.00069   20.3   1.2     0.0015   19.3   1.2    1.5  1  Solyc02g079710.2.1.iTAGv2.3  
+    0.00098   19.8   0.1     0.0034   18.1   0.1    1.9  1  Solyc10g005440.1.1.iTAGv2.3  
+     0.0012   19.6   0.8     0.0031   18.2   0.8    1.7  1  Solyc04g015460.2.1.iTAGv2.3  
+     0.0016   19.1   0.2     0.0038   17.9   0.2    1.6  1  Solyc04g008370.1.1.iTAGv2.3  
+     0.0016   19.1   0.7     0.0054   17.5   0.7    1.9  1  Solyc07g053220.1.1.iTAGv2.3  
+     0.0033   18.2   1.5     0.0091   16.7   1.5    1.7  1  Solyc02g079590.2.1.iTAGv2.3  
+     0.0034   18.1   0.3     0.0077   17.0   0.3    1.5  1  Solyc08g059730.1.1.iTAGv2.3  
+      0.006   17.3   0.5      0.013   16.2   0.5    1.5  1  Solyc07g053080.2.1.iTAGv2.3  
+     0.0083   16.9   0.6      0.019   15.7   0.6    1.6  1  Solyc02g076830.1.1.iTAGv2.3  
+
+
+Domain annotation for each sequence (and alignments):
+>> Solyc03g063650.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.1   1.6   1.1e-10   2.9e-07       6      72 ..     335     402 ..     326     406 .. 0.73
+   2 ?    2.6   0.2     0.088   2.4e+02      30      50 ..     567     588 ..     565     607 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 31.1 bits;  conditional E-value: 1.1e-10
+                                  EEEEEEES..EEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETT.TTEEEEEESTTSSTSEEEEEEEEEEEE CS
+                        PAN_1   6 vpgssleg..edkktv.tvssaeeCaqrCaeekrCrsftYnek.skkCllksessgssprlkrksekvdyy 72 
+                                  +++  l g   +++tv ++ ++++C+++C+++++C+++++ ++ + +C+++++     ++ ++ s +++++
+  Solyc03g063650.1.1.iTAGv2.3 335 HEHMYLYGiyPPNNTVvQT-NLQQCRSMCQKDPSCHAASFINNgTPQCHMMNSRYVG-GQSNP-SLGSVTF 402
+                                  5555566665555566366.********************9999*******987754.55555.5555555 PP
+
+  == domain 2  score: 2.6 bits;  conditional E-value: 0.088
+                                  HHHHSTT.-SEEEEETTTTEEE CS
+                        PAN_1  30 rCaeekr.CrsftYnekskkCl 50 
+                                  +C+ee+r C+  t+ ++   Cl
+  Solyc03g063650.1.1.iTAGv2.3 567 KCLEEPRmCKRLTWRKRMDICL 588
+                                  8*************99988886 PP
+
+>> Solyc09g011330.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.1   0.0   8.3e-09   2.2e-05       3      52 ..     340     390 ..     337     393 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 25.1 bits;  conditional E-value: 8.3e-09
+                                  ECEEEEEEEESEEEEEEECSSHHHHHHHHHHSTT-SEEEEETT.TTEEEEE CS
+                        PAN_1   3 fervpgsslegedkktvtvssaeeCaqrCaeekrCrsftYnek.skkCllk 52 
+                                  f+ vp++++ g+d +++t  s e C+++C+ ++rCr+f Y ++ +++C+ k
+  Solyc09g011330.1.1.iTAGv2.3 340 FVEVPNVDYWGFDLNATTPLSFESCRELCLGDPRCRAFVYRRTgEGSCYTK 390
+                                  88999999999999999555**********************999999976 PP
+
+>> Solyc09g009150.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.6   3.2e-08   8.7e-05      10      53 ..     361     405 ..     356     421 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 3.2e-08
+                                  EEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEE CS
+                        PAN_1  10 slegedkktv.tvssaeeCaqrCaeekrCrsftYnekskkCllks 53 
+                                  +l++++     ++ s eeC+++C+ + +C  + Y+++s+ C++ +
+  Solyc09g009150.1.1.iTAGv2.3 361 ELSNTELMDYkHMVSFEECQSACEGNCTCWGAVYTNTSGFCYILN 405
+                                  566655555555669**************************9875 PP
+
+>> Solyc04g078410.2.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.2   1.5   1.4e-07   0.00037       3      50 ..     346     397 ..     338     401 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 21.2 bits;  conditional E-value: 1.4e-07
+                                  ECEEEEEEEESEEEEEEECSSHHHHHHHHHHSTT-SEEEEETT....TTEEE CS
+                        PAN_1   3 fervpgsslegedkktvtvssaeeCaqrCaeekrCrsftYnek....skkCl 50 
+                                  f  ++++++ g+d+  ++ ++++eC  +C+++ +C+ f+Y +     +  C+
+  Solyc04g078410.2.1.iTAGv2.3 346 FIPLRHVEFYGYDIAYFRNKTLQECKDLCLKHCDCKGFEYKYVqgngTYGCY 397
+                                  55567788889999999999*********************99777777776 PP
+
+>> Solyc02g079710.2.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   1.2   5.5e-07    0.0015       3      62 ..     329     386 ..     322     402 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 19.3 bits;  conditional E-value: 5.5e-07
+                                  ECEEEEEEEESEEEEEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSSTSEE CS
+                        PAN_1   3 fervpgsslegedkktvtvssaeeCaqrCaeekrCrsftYnekskkCllksessgssprl 62 
+                                  f+ +++++l + + ++v+v + + C   C+ + +C+++ Y ++ + Cll +++     rl
+  Solyc02g079710.2.1.iTAGv2.3 329 FVHMQNVELPA-SSESVQVGNDRICEYICSSNCSCKAYAYSNS-GVCLLWNDDLINLRRL 386
+                                  67777888866.44556799********************999.*****99997764444 PP
+
+>> Solyc10g005440.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   0.1   1.3e-06    0.0034      19      63 ..     367     410 ..     354     421 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 1.3e-06
+                                  EECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSSTSEEE CS
+                        PAN_1  19 vtvssaeeCaqrCaeekrCrsftYnekskkCllksessgssprlk 63 
+                                   +v +++eC+++C+e+ +C+++ + +    C++ s++  + ++++
+  Solyc10g005440.1.1.iTAGv2.3 367 ADVLNIDECRSMCLENCSCTAYAFVSG-IDCMMWSGDLVDMQQFQ 410
+                                  47889*******************999.88999988877755555 PP
+
+>> Solyc04g015460.2.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.2   0.8   1.2e-06    0.0031      21      52 ..     359     389 ..     345     401 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 18.2 bits;  conditional E-value: 1.2e-06
+                                  CSSHHHHHHHHHHSTT-SEEEEETTTTEEEEE CS
+                        PAN_1  21 vssaeeCaqrCaeekrCrsftYnekskkCllk 52 
+                                  v +++ C+ +C+++ +C s+ ++++s++C++ 
+  Solyc04g015460.2.1.iTAGv2.3 359 V-NVSACQDLCSKNCSCLSVFHDQSSGSCYMI 389
+                                  4.789************************985 PP
+
+>> Solyc04g008370.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.2   1.4e-06    0.0038       9      58 ..     314     360 ..     305     372 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 1.4e-06
+                                  EEEESEEEEEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                        PAN_1   9 sslegedkktvtvssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                  ++l ++++ + t+  +eeC+++C+ + +C ++ +++    C+l s++  +
+  Solyc04g008370.1.1.iTAGv2.3 314 TKLPDFAERSYTI--EEECRSKCLSNCSCIAYAFDTG-IGCMLWSSNLID 360
+                                  4444455555544..9********************9.899999998655 PP
+
+>> Solyc07g053220.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.5   0.7     2e-06    0.0054      15      53 ..     363     398 ..     351     417 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 17.5 bits;  conditional E-value: 2e-06
+                                  EEEEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEE CS
+                        PAN_1  15 dkktvtvssaeeCaqrCaeekrCrsftYnekskkCllks 53 
+                                  + + +++ s eeC++ C+++ +C+++ Y ++   C++ +
+  Solyc07g053220.1.1.iTAGv2.3 363 NAQNISAGSDEECRSTCLNNCSCTAYAYGSS---CSIWN 398
+                                  44556788********************887...66555 PP
+
+>> Solyc02g079590.2.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.7   1.5   3.4e-06    0.0091       2      56 ..     352     410 ..     348     427 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 16.7 bits;  conditional E-value: 3.4e-06
+                                  GECEEEEEEEESEEEEEE.ECSSHHHHHHHHHHSTT-SEEEEETT...TTEEEEEESTT CS
+                        PAN_1   2 sfervpgsslegedkktv.tvssaeeCaqrCaeekrCrsftYnek...skkCllksess 56 
+                                  +f ++++ +l +++++ v t+ +++eC ++C ++ +C+++t  +     + C++ s++ 
+  Solyc02g079590.2.1.iTAGv2.3 352 KFNILKNMKLPDTTNSFVdTTMNLDECEAMCMKNCSCTAYTNSNIsgsGSGCVIWSSEL 410
+                                  6889999999999999998899*****************99666666666777777665 PP
+
+>> Solyc08g059730.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.3   2.9e-06    0.0077      21      58 ..     348     384 ..     334     400 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 2.9e-06
+                                  CSSHHHHHHHHHHSTT-SEEEEETTTTEEEEEESTTSS CS
+                        PAN_1  21 vssaeeCaqrCaeekrCrsftYnekskkCllksessgs 58 
+                                  + +++ C + C  + +C +  ++++s++C+++++ ++ 
+  Solyc08g059730.1.1.iTAGv2.3 348 T-DLNGCKASCVGNCSCAAMFFDSTSGNCFMFDQVGSL 384
+                                  3.7899**************************998766 PP
+
+>> Solyc07g053080.2.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.5   4.9e-06     0.013      15      50 ..     352     384 ..     339     395 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 4.9e-06
+                                  EEEEEECSSHHHHHHHHHHSTT-SEEEEETTTTEEE CS
+                        PAN_1  15 dkktvtvssaeeCaqrCaeekrCrsftYnekskkCl 50 
+                                  +++  ++ s++eC  rC  + +C+++ Y ++  +Cl
+  Solyc07g053080.2.1.iTAGv2.3 352 AISLGHI-SIKECETRCIRNCSCSAYAYSNS--TCL 384
+                                  4444467.9********************99..665 PP
+
+>> Solyc02g076830.1.1.iTAGv2.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.6   6.9e-06     0.019      23      54 ..     385     416 ..     362     431 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 15.7 bits;  conditional E-value: 6.9e-06
+                                  SHHHHHHHHHHSTT-SEEEEETTTTEEEEEES CS
+                        PAN_1  23 saeeCaqrCaeekrCrsftYnekskkCllkse 54 
+                                   ++eC  rC ++ +C  f Y ++s+kCl+ +e
+  Solyc02g076830.1.1.iTAGv2.3 385 KISECKNRCNKDCKCVGFFYKQESSKCLVVPE 416
+                                  689************************98765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (76 nodes)
+Target sequences:                      34727  (11956401 residues searched)
+Passed MSV filter:                      1403  (0.0404008); expected 694.5 (0.02)
+Passed bias filter:                      695  (0.0200132); expected 694.5 (0.02)
+Passed Vit filter:                        97  (0.00279322); expected 34.7 (0.001)
+Passed Fwd filter:                        30  (0.000863881); expected 0.3 (1e-05)
+Initial search space (Z):              34727  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.05
+# Mc/sec: 15285.59
+//
+[ok]
+
+Running hmmsearch on database/proteins/Solanum_lycopersicum.faa with model results/analysis_Zea_Physco_Solanum/PF00024.hmm
+Filtered results saved in results/analysis_Zea_Physco_Solanum/hmmsearch_Solanum_lycopersicum_filtered.txt
+Found 13 genes after filtering.
+Gene IDs written to results/analysis_Zea_Physco_Solanum/found_genes_Solanum_lycopersicum.txt
+
+============================================================
+New task started in results/analysis_Zea_Physco_Solanum
+Start HMM search: Solanum_lycopersicum.faa
+Filter: E=1e-2, Coverage=20, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Zea_Physco_Solanum
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  results/analysis_Zea_Physco_Solanum/PF00024.hmm
+# target sequence database:        database/proteins/Physcomitrium_patens.faa
+# per-dom hits tabular output:     results/analysis_Zea_Physco_Solanum/hmmsearch_Physcomitrium_patens.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PAN_1  [M=76]
+Accession:   PF00024.32
+Description: PAN domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    0.00058   20.7   1.5    0.00058   20.7   1.5    1.8  2  PAC:18059617  
+
+
+Domain annotation for each sequence (and alignments):
+>> PAC:18059617  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.0   0.9      0.78     3e+04      31      45 ..     293     307 ..     291     311 .. 0.79
+   2 !   20.7   1.5   1.5e-08   0.00058      22      61 ..     379     425 ..     359     438 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: -4.0 bits;  conditional E-value: 0.78
+                   HHHSTT-SEEEEETT CS
+         PAN_1  31 CaeekrCrsftYnek 45 
+                   C +++ C s +Y + 
+  PAC:18059617 293 CGKNSLCISSNYIPG 307
+                   888888*9*999876 PP
+
+  == domain 2  score: 20.7 bits;  conditional E-value: 1.5e-08
+                   SSHHHHHHHHHHSTT-SEEEEETT......TTEEEEEESTTSS.TSE CS
+         PAN_1  22 ssaeeCaqrCaeekrCrsftYnek......skkCllksessgs.spr 61 
+                   ++++ C++rCa + +C sf++ e         +C l+s s+   ++r
+  PAC:18059617 379 DTESACRERCAGNCSCGSFSFSEVapgtstATNCTLHSTSTVFfNAR 425
+                   7899*************************99********99886332 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (76 nodes)
+Target sequences:                      38352  (13533807 residues searched)
+Passed MSV filter:                      1240  (0.0323321); expected 767.0 (0.02)
+Passed bias filter:                      641  (0.0167136); expected 767.0 (0.02)
+Passed Vit filter:                        50  (0.00130371); expected 38.4 (0.001)
+Passed Fwd filter:                         7  (0.00018252); expected 0.4 (1e-05)
+Initial search space (Z):              38352  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.13u 0.00s 00:00:00.13 Elapsed: 00:00:00.06
+# Mc/sec: 16583.02
+//
+[ok]
+
+Running hmmsearch on database/proteins/Physcomitrium_patens.faa with model results/analysis_Zea_Physco_Solanum/PF00024.hmm
+Filtered results saved in results/analysis_Zea_Physco_Solanum/hmmsearch_Physcomitrium_patens_filtered.txt
+Found 1 genes after filtering.
+Gene IDs written to results/analysis_Zea_Physco_Solanum/found_genes_Physcomitrium_patens.txt
+
+============================================================
+New task started in results/analysis_Zea_Physco_Solanum
+Start HMM search: Physcomitrium_patens.faa
+Filter: E=1e-2, Coverage=20, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Zea_Physco_Solanum
+============================================================
+
+Sequences are merged in: results/analysis_Zea_Physco_Solanum/combined_sequences.faa
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 46    1 / 46    2 / 46    3 / 46    4 / 46    5 / 46    6 / 46    7 / 46    8 / 46    9 / 46   10 / 46   11 / 46   12 / 46   13 / 46   14 / 46   15 / 46   16 / 46   17 / 46   18 / 46   19 / 46   20 / 46   21 / 46   22 / 46   23 / 46   24 / 46   25 / 46   26 / 46   27 / 46   28 / 46   29 / 46   30 / 46   31 / 46   32 / 46   33 / 46   34 / 46   35 / 46   36 / 46   37 / 46   38 / 46   39 / 46   40 / 46   41 / 46   42 / 46   43 / 46   44 / 46tbfast-pair (aa) Version 7.505
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 46   10 / 46   20 / 46   30 / 46   40 / 46
+done.
+
+Progressive alignment ... 
+STEP     1 /45 STEP     2 /45 STEP     3 /45 STEP     4 /45 STEP     5 /45 STEP     6 /45 STEP     7 /45 STEP     8 /45 STEP     9 /45 STEP    10 /45 STEP    11 /45 STEP    12 /45 STEP    13 /45 STEP    14 /45 STEP    15 /45 STEP    16 /45 STEP    17 /45 STEP    18 /45 STEP    19 /45 STEP    20 /45 STEP    21 /45 STEP    22 /45 STEP    23 /45 STEP    24 /45 STEP    25 /45 STEP    26 /45 STEP    27 /45 STEP    28 /45 STEP    29 /45 STEP    30 /45 STEP    31 /45 STEP    32 /45 STEP    33 /45 STEP    34 /45 STEP    35 /45 STEP    36 /45 STEP    37 /45 STEP    38 /45 STEP    39 /45 
+Reallocating..done. *alloclen = 3405
+STEP    40 /45 STEP    41 /45 STEP    42 /45 STEP    43 /45 STEP    44 /45 STEP    45 /45 
+done.
+tbfast (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+rescale = 1
+
+    0 / 46   10 / 46   20 / 46   30 / 46   40 / 46
+Segment   1/  1    1-1932
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-0  identical.   STEP 001-004-1  identical.   STEP 001-005-0  identical.   STEP 001-005-1  rejected.STEP 001-006-0  identical.   STEP 001-006-1  identical.   STEP 001-007-0  identical.   STEP 001-007-1  identical.   STEP 001-008-0  accepted.STEP 001-008-1  identical.   STEP 001-009-0  identical.   STEP 001-009-1  identical.   STEP 001-010-0  identical.   STEP 001-010-1  accepted.STEP 001-011-0  rejected.STEP 001-011-1  accepted.STEP 001-012-0  accepted.STEP 001-012-1  accepted.STEP 001-013-0  rejected.STEP 001-013-1  rejected.STEP 001-014-0  rejected.STEP 001-014-1  rejected.STEP 001-015-0  accepted.STEP 001-015-1  accepted.STEP 001-016-0  accepted.STEP 001-016-1  accepted.STEP 001-017-0  accepted.STEP 001-017-1  accepted.STEP 001-018-0  accepted.STEP 001-018-1  accepted.STEP 001-019-0  rejected.STEP 001-019-1  accepted.STEP 001-020-0  accepted.STEP 001-020-1  rejected.STEP 001-021-0  accepted.STEP 001-021-1  accepted.STEP 001-022-0  accepted.STEP 001-022-1  accepted.STEP 001-023-0  rejected.STEP 001-023-1  accepted.STEP 001-024-0  rejected.STEP 001-024-1  identical.   STEP 001-025-0  accepted.STEP 001-025-1  rejected.STEP 001-026-0  accepted.STEP 001-026-1  accepted.STEP 001-027-0  accepted.STEP 001-027-1  accepted.STEP 001-028-0  rejected.STEP 001-028-1  rejected.STEP 001-029-0  identical.   STEP 001-029-1  rejected.STEP 001-030-0  rejected.STEP 001-030-1  accepted.STEP 001-031-0  rejected.STEP 001-031-1  accepted.STEP 001-032-0  accepted.STEP 001-032-1  accepted.STEP 001-033-0  rejected.STEP 001-033-1  accepted.STEP 001-034-0  accepted.STEP 001-034-1  accepted.STEP 001-035-0  accepted.STEP 001-035-1  rejected.STEP 001-036-0  rejected.STEP 001-036-1  accepted.STEP 001-037-0  rejected.STEP 001-037-1  accepted.STEP 001-038-0  rejected.STEP 001-038-1  rejected.STEP 001-039-0  rejected.STEP 001-039-1  accepted.STEP 001-040-0  identical.   STEP 001-040-1  accepted.STEP 001-041-0  accepted.STEP 001-041-1  accepted.STEP 001-042-0  rejected.STEP 001-042-1  accepted.STEP 001-043-0  accepted.STEP 001-043-1  accepted.STEP 001-044-0  accepted.STEP 001-044-1  accepted.STEP 001-045-1  rejected.STEP 002-045-1  rejected.STEP 002-044-0  accepted.STEP 002-044-1  rejected.STEP 002-043-0  identical.   STEP 002-043-1  accepted.STEP 002-042-0  accepted.STEP 002-042-1  rejected.STEP 002-041-0  identical.   STEP 002-041-1  accepted.STEP 002-040-0  accepted.STEP 002-040-1  accepted.STEP 002-039-0  rejected.STEP 002-039-1  accepted.STEP 002-038-0  rejected.STEP 002-038-1  rejected.STEP 002-037-0  rejected.STEP 002-037-1  accepted.STEP 002-036-0  rejected.STEP 002-036-1  rejected.STEP 002-035-0  rejected.STEP 002-035-1  rejected.STEP 002-034-0  rejected.STEP 002-034-1  accepted.STEP 002-033-0  accepted.STEP 002-033-1  accepted.STEP 002-032-0  rejected.STEP 002-032-1  accepted.STEP 002-031-0  rejected.STEP 002-031-1  rejected.STEP 002-030-0  accepted.STEP 002-030-1  accepted.STEP 002-029-0  rejected.STEP 002-029-1  accepted.STEP 002-028-0  accepted.STEP 002-028-1  accepted.STEP 002-027-0  accepted.STEP 002-027-1  accepted.STEP 002-026-0  accepted.STEP 002-026-1  rejected.STEP 002-025-0  accepted.STEP 002-025-1  rejected.STEP 002-024-0  rejected.STEP 002-024-1  accepted.STEP 002-023-0  accepted.STEP 002-023-1  accepted.STEP 002-022-0  accepted.STEP 002-022-1  accepted.STEP 002-021-0  accepted.STEP 002-021-1  accepted.STEP 002-020-0  accepted.STEP 002-020-1  accepted.STEP 002-019-0  accepted.STEP 002-019-1  accepted.STEP 002-018-0  accepted.STEP 002-018-1  accepted.STEP 002-017-0  accepted.STEP 002-017-1  accepted.STEP 002-016-0  accepted.STEP 002-016-1  accepted.STEP 002-015-0  accepted.STEP 002-015-1  accepted.STEP 002-014-0  rejected.STEP 002-014-1  rejected.STEP 002-013-0  accepted.STEP 002-013-1  accepted.STEP 002-012-0  accepted.STEP 002-012-1  accepted.STEP 002-011-0  rejected.STEP 002-011-1  rejected.STEP 002-010-0  rejected.STEP 002-010-1  identical.   STEP 002-009-0  identical.   STEP 002-009-1  rejected.STEP 002-008-0  identical.   STEP 002-008-1  identical.   STEP 002-007-0  identical.   STEP 002-007-1  identical.   STEP 002-006-0  identical.   STEP 002-006-1  identical.   STEP 002-005-0  identical.   STEP 002-005-1  accepted.STEP 002-004-0  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  identical.   STEP 003-003-1  identical.   STEP 003-004-0  identical.   STEP 003-004-1  identical.   STEP 003-005-0  identical.   STEP 003-005-1  identical.   STEP 003-006-0  identical.   STEP 003-006-1  identical.   STEP 003-007-0  identical.   STEP 003-007-1  identical.   STEP 003-008-0  identical.   STEP 003-008-1  identical.   STEP 003-009-0  identical.   STEP 003-009-1  rejected.STEP 003-010-0  rejected.STEP 003-010-1  identical.   STEP 003-011-0  rejected.STEP 003-011-1  rejected.STEP 003-012-0  accepted.STEP 003-012-1  identical.   STEP 003-013-0  rejected.STEP 003-013-1  identical.   STEP 003-014-0  rejected.STEP 003-014-1  rejected.STEP 003-015-0  identical.   STEP 003-015-1  identical.   STEP 003-016-0  identical.   STEP 003-016-1  accepted.STEP 003-017-0  identical.   STEP 003-017-1  identical.   STEP 003-018-0  accepted.STEP 003-018-1  rejected.STEP 003-019-0  accepted.STEP 003-019-1  rejected.STEP 003-020-0  rejected.STEP 003-020-1  accepted.STEP 003-021-0  identical.   STEP 003-021-1  rejected.STEP 003-022-0  accepted.STEP 003-022-1  rejected.STEP 003-023-0  accepted.STEP 003-023-1  rejected.STEP 003-024-0  accepted.STEP 003-024-1  identical.   STEP 003-025-0  accepted.STEP 003-025-1  rejected.STEP 003-026-0  rejected.STEP 003-026-1  rejected.STEP 003-027-0  rejected.STEP 003-027-1  rejected.STEP 003-028-0  accepted.STEP 003-028-1  rejected.STEP 003-029-0  rejected.STEP 003-029-1  accepted.STEP 003-030-0  rejected.STEP 003-030-1  rejected.STEP 003-031-0  rejected.STEP 003-031-1  accepted.STEP 003-032-0  rejected.STEP 003-032-1  accepted.STEP 003-033-0  rejected.STEP 003-033-1  rejected.STEP 003-034-0  rejected.STEP 003-034-1  accepted.STEP 003-035-0  rejected.STEP 003-035-1  rejected.STEP 003-036-0  rejected.STEP 003-036-1  accepted.STEP 003-037-0  rejected.STEP 003-037-1  rejected.STEP 003-038-0  rejected.STEP 003-038-1  rejected.STEP 003-039-0  rejected.STEP 003-039-1  accepted.STEP 003-040-0  rejected.STEP 003-040-1  accepted.STEP 003-041-0  accepted.STEP 003-041-1  accepted.STEP 003-042-0  rejected.STEP 003-042-1  rejected.STEP 003-043-0  rejected.STEP 003-043-1  accepted.STEP 003-044-0  accepted.STEP 003-044-1  rejected.STEP 003-045-1  accepted.STEP 004-045-1  identical.   STEP 004-044-0  identical.   STEP 004-044-1  rejected.STEP 004-043-0  identical.   STEP 004-043-1  identical.   STEP 004-042-0  rejected.STEP 004-042-1  rejected.STEP 004-041-0  rejected.STEP 004-041-1  accepted.STEP 004-040-0  rejected.STEP 004-040-1  accepted.STEP 004-039-0  rejected.STEP 004-039-1  accepted.STEP 004-038-0  rejected.STEP 004-038-1  rejected.STEP 004-037-0  rejected.STEP 004-037-1  accepted.STEP 004-036-0  rejected.STEP 004-036-1  accepted.STEP 004-035-0  rejected.STEP 004-035-1  rejected.STEP 004-034-0  rejected.STEP 004-034-1  rejected.STEP 004-033-0  rejected.STEP 004-033-1  rejected.STEP 004-032-0  accepted.STEP 004-032-1  identical.   STEP 004-031-0  rejected.STEP 004-031-1  accepted.STEP 004-030-0  rejected.STEP 004-030-1  rejected.STEP 004-029-0  rejected.STEP 004-029-1  rejected.STEP 004-028-0  rejected.STEP 004-028-1  rejected.STEP 004-027-0  rejected.STEP 004-027-1  rejected.STEP 004-026-0  rejected.STEP 004-026-1  accepted.STEP 004-025-0  rejected.STEP 004-025-1  accepted.STEP 004-024-0  identical.   STEP 004-024-1  identical.   STEP 004-023-0  rejected.STEP 004-023-1  rejected.STEP 004-022-0  rejected.STEP 004-022-1  accepted.STEP 004-021-0  rejected.STEP 004-021-1  rejected.STEP 004-020-0  rejected.STEP 004-020-1  accepted.STEP 004-019-0  accepted.STEP 004-019-1  rejected.STEP 004-018-0  accepted.STEP 004-018-1  accepted.STEP 004-017-0  rejected.STEP 004-017-1  identical.   STEP 004-016-0  rejected.STEP 004-016-1  rejected.STEP 004-015-0  rejected.STEP 004-015-1  rejected.STEP 004-014-0  rejected.STEP 004-014-1  rejected.STEP 004-013-0  accepted.STEP 004-013-1  accepted.STEP 004-012-0  rejected.STEP 004-012-1  accepted.STEP 004-011-0  rejected.STEP 004-011-1  accepted.STEP 004-010-0  rejected.STEP 004-010-1  identical.   STEP 004-009-0  identical.   STEP 004-009-1  identical.   STEP 004-008-0  accepted.STEP 004-008-1  identical.   STEP 004-007-0  identical.   STEP 004-007-1  identical.   STEP 004-006-0  identical.   STEP 004-006-1  identical.   STEP 004-005-0  identical.   STEP 004-005-1  rejected.STEP 004-004-0  identical.   STEP 004-004-1  identical.   STEP 004-003-0  identical.   STEP 004-003-1  identical.   STEP 004-002-0  identical.   STEP 004-002-1  identical.   STEP 004-001-0  identical.   STEP 004-001-1  identical.   STEP 005-001-0  identical.   STEP 005-001-1  identical.   STEP 005-002-0  identical.   STEP 005-002-1  identical.   STEP 005-003-0  identical.   STEP 005-003-1  identical.   STEP 005-004-0  identical.   STEP 005-004-1  identical.   STEP 005-005-0  identical.   STEP 005-005-1  rejected.STEP 005-006-0  identical.   STEP 005-006-1  identical.   STEP 005-007-0  identical.   STEP 005-007-1  identical.   STEP 005-008-0  identical.   STEP 005-008-1  identical.   STEP 005-009-0  identical.   STEP 005-009-1  identical.   STEP 005-010-0  rejected.STEP 005-010-1  identical.   STEP 005-011-0  rejected.STEP 005-011-1  identical.   STEP 005-012-0  rejected.STEP 005-012-1  identical.   STEP 005-013-0  identical.   STEP 005-013-1  identical.   STEP 005-014-0  rejected.STEP 005-014-1  rejected.STEP 005-015-0  rejected.STEP 005-015-1  rejected.STEP 005-016-0  rejected.STEP 005-016-1  rejected.STEP 005-017-0  rejected.STEP 005-017-1  identical.   STEP 005-018-0  accepted.STEP 005-018-1  accepted.STEP 005-019-0  identical.   STEP 005-019-1  rejected.STEP 005-020-0  rejected.STEP 005-020-1  rejected.STEP 005-021-0  identical.   STEP 005-021-1  rejected.STEP 005-022-0  identical.   STEP 005-022-1  identical.   STEP 005-023-0  rejected.STEP 005-023-1  rejected.STEP 005-024-0  identical.   STEP 005-024-1  identical.   STEP 005-025-0  accepted.STEP 005-025-1  rejected.STEP 005-026-0  accepted.STEP 005-026-1  accepted.STEP 005-027-0  rejected.STEP 005-027-1  rejected.STEP 005-028-0  accepted.STEP 005-028-1  rejected.STEP 005-029-0  rejected.STEP 005-029-1  rejected.STEP 005-030-0  rejected.STEP 005-030-1  rejected.STEP 005-031-0  rejected.STEP 005-031-1  rejected.STEP 005-032-0  identical.   STEP 005-032-1  accepted.STEP 005-033-0  rejected.STEP 005-033-1  accepted.STEP 005-034-0  rejected.STEP 005-034-1  rejected.STEP 005-035-0  rejected.STEP 005-035-1  rejected.STEP 005-036-0  rejected.STEP 005-036-1  accepted.STEP 005-037-0  rejected.STEP 005-037-1  identical.   STEP 005-038-0  rejected.STEP 005-038-1  accepted.STEP 005-039-0  rejected.STEP 005-039-1  accepted.STEP 005-040-0  rejected.STEP 005-040-1  rejected.STEP 005-041-0  rejected.STEP 005-041-1  rejected.STEP 005-042-0  rejected.STEP 005-042-1  rejected.STEP 005-043-0  accepted.STEP 005-043-1  rejected.STEP 005-044-0  rejected.STEP 005-044-1  rejected.STEP 005-045-1  rejected.STEP 006-045-1  rejected.STEP 006-044-0  rejected.STEP 006-044-1  rejected.STEP 006-043-0  identical.   STEP 006-043-1  rejected.STEP 006-042-0  rejected.STEP 006-042-1  rejected.STEP 006-041-0  rejected.STEP 006-041-1  rejected.STEP 006-040-0  rejected.STEP 006-040-1  rejected.STEP 006-039-0  rejected.STEP 006-039-1  accepted.STEP 006-038-0  rejected.STEP 006-038-1  identical.   STEP 006-037-0  rejected.STEP 006-037-1  identical.   STEP 006-036-0  identical.   STEP 006-036-1  rejected.STEP 006-035-0  identical.   STEP 006-035-1  rejected.STEP 006-034-0  rejected.STEP 006-034-1  rejected.STEP 006-033-0  rejected.STEP 006-033-1  rejected.STEP 006-032-0  accepted.STEP 006-032-1  rejected.STEP 006-031-0  rejected.STEP 006-031-1  accepted.STEP 006-030-0  rejected.STEP 006-030-1  rejected.STEP 006-029-0  identical.   STEP 006-029-1  rejected.STEP 006-028-0  accepted.STEP 006-028-1  rejected.STEP 006-027-0  rejected.STEP 006-027-1  rejected.STEP 006-026-0  rejected.STEP 006-026-1  rejected.STEP 006-025-0  accepted.STEP 006-025-1  accepted.STEP 006-024-0  rejected.STEP 006-024-1  accepted.STEP 006-023-0  rejected.STEP 006-023-1  accepted.STEP 006-022-0  rejected.STEP 006-022-1  identical.   STEP 006-021-0  accepted.STEP 006-021-1  accepted.STEP 006-020-0  rejected.STEP 006-020-1  rejected.STEP 006-019-0  identical.   STEP 006-019-1  rejected.STEP 006-018-0  rejected.STEP 006-018-1  accepted.STEP 006-017-0  rejected.STEP 006-017-1  identical.   STEP 006-016-0  rejected.STEP 006-016-1  accepted.STEP 006-015-0  rejected.STEP 006-015-1  rejected.STEP 006-014-0  rejected.STEP 006-014-1  rejected.STEP 006-013-0  rejected.STEP 006-013-1  rejected.STEP 006-012-0  accepted.STEP 006-012-1  rejected.STEP 006-011-0  rejected.STEP 006-011-1  identical.   STEP 006-010-0  rejected.STEP 006-010-1  rejected.STEP 006-009-0  identical.   STEP 006-009-1  identical.   STEP 006-008-0  identical.   STEP 006-008-1  identical.   STEP 006-007-0  identical.   STEP 006-007-1  identical.   STEP 006-006-0  identical.   STEP 006-006-1  identical.   STEP 006-005-0  identical.   STEP 006-005-1  rejected.STEP 006-004-0  identical.   STEP 006-004-1  identical.   STEP 006-003-0  identical.   STEP 006-003-1  identical.   STEP 006-002-0  identical.   STEP 006-002-1  identical.   STEP 006-001-0  identical.   STEP 006-001-1  identical.   STEP 007-001-0  identical.   STEP 007-001-1  identical.   STEP 007-002-0  identical.   STEP 007-002-1  identical.   STEP 007-003-0  identical.   STEP 007-003-1  identical.   STEP 007-004-0  identical.   STEP 007-004-1  identical.   STEP 007-005-0  identical.   STEP 007-005-1  rejected.STEP 007-006-0  identical.   STEP 007-006-1  identical.   STEP 007-007-0  identical.   STEP 007-007-1  identical.   STEP 007-008-0  identical.   STEP 007-008-1  identical.   STEP 007-009-0  identical.   STEP 007-009-1  identical.   STEP 007-010-0  rejected.STEP 007-010-1  rejected.STEP 007-011-0  rejected.STEP 007-011-1  identical.   STEP 007-012-0  identical.   STEP 007-012-1  rejected.STEP 007-013-0  rejected.STEP 007-013-1  rejected.STEP 007-014-0  rejected.STEP 007-014-1  rejected.STEP 007-015-0  rejected.STEP 007-015-1  rejected.STEP 007-016-0  accepted.STEP 007-016-1  identical.   STEP 007-017-0  rejected.STEP 007-017-1  identical.   STEP 007-018-0  accepted.STEP 007-018-1  identical.   STEP 007-019-0  identical.   STEP 007-019-1  rejected.STEP 007-020-0  rejected.STEP 007-020-1  rejected.STEP 007-021-0  identical.   STEP 007-021-1  rejected.STEP 007-022-0  rejected.STEP 007-022-1  identical.   STEP 007-023-0  rejected.STEP 007-023-1  rejected.STEP 007-024-0  identical.   STEP 007-024-1  identical.   STEP 007-025-0  accepted.STEP 007-025-1  identical.   STEP 007-026-0  rejected.STEP 007-026-1  rejected.STEP 007-027-0  rejected.STEP 007-027-1  rejected.STEP 007-028-0  rejected.STEP 007-028-1  rejected.STEP 007-029-0  accepted.STEP 007-029-1  rejected.STEP 007-030-0  rejected.STEP 007-030-1  rejected.STEP 007-031-0  rejected.STEP 007-031-1  accepted.STEP 007-032-0  rejected.STEP 007-032-1  rejected.STEP 007-033-0  rejected.STEP 007-033-1  accepted.STEP 007-034-0  rejected.STEP 007-034-1  rejected.STEP 007-035-0  identical.   STEP 007-035-1  rejected.STEP 007-036-0  rejected.STEP 007-036-1  rejected.STEP 007-037-0  rejected.STEP 007-037-1  identical.   STEP 007-038-0  rejected.STEP 007-038-1  rejected.STEP 007-039-0  rejected.STEP 007-039-1  identical.   STEP 007-040-0  rejected.STEP 007-040-1  rejected.STEP 007-041-0  rejected.STEP 007-041-1  rejected.STEP 007-042-0  rejected.STEP 007-042-1  rejected.STEP 007-043-0  rejected.STEP 007-043-1  rejected.STEP 007-044-0  rejected.STEP 007-044-1  rejected.STEP 007-045-1  rejected.STEP 008-045-1  rejected.STEP 008-044-0  rejected.STEP 008-044-1  rejected.STEP 008-043-0  rejected.STEP 008-043-1  rejected.STEP 008-042-0  rejected.STEP 008-042-1  rejected.STEP 008-041-0  rejected.STEP 008-041-1  rejected.STEP 008-040-0  rejected.STEP 008-040-1  rejected.STEP 008-039-0  rejected.STEP 008-039-1  identical.   STEP 008-038-0  rejected.STEP 008-038-1  rejected.STEP 008-037-0  rejected.STEP 008-037-1  identical.   STEP 008-036-0  rejected.STEP 008-036-1  rejected.STEP 008-035-0  identical.   STEP 008-035-1  rejected.STEP 008-034-0  rejected.STEP 008-034-1  rejected.STEP 008-033-0  rejected.STEP 008-033-1  identical.   STEP 008-032-0  rejected.STEP 008-032-1  rejected.STEP 008-031-0  rejected.STEP 008-031-1  identical.   STEP 008-030-0  rejected.STEP 008-030-1  rejected.STEP 008-029-0  identical.   STEP 008-029-1  rejected.STEP 008-028-0  rejected.STEP 008-028-1  rejected.STEP 008-027-0  rejected.STEP 008-027-1  rejected.STEP 008-026-0  rejected.STEP 008-026-1  rejected.STEP 008-025-0  rejected.STEP 008-025-1  identical.   STEP 008-024-0  identical.   STEP 008-024-1  identical.   STEP 008-023-0  rejected.STEP 008-023-1  rejected.STEP 008-022-0  rejected.STEP 008-022-1  identical.   STEP 008-021-0  rejected.STEP 008-021-1  rejected.STEP 008-020-0  rejected.STEP 008-020-1  rejected.STEP 008-019-0  identical.   STEP 008-019-1  rejected.STEP 008-018-0  identical.   STEP 008-018-1  identical.   STEP 008-017-0  rejected.STEP 008-017-1  identical.   STEP 008-016-0  identical.   STEP 008-016-1  accepted.STEP 008-015-0  rejected.STEP 008-015-1  rejected.STEP 008-014-0  rejected.STEP 008-014-1  rejected.STEP 008-013-0  rejected.STEP 008-013-1  rejected.STEP 008-012-0  accepted.STEP 008-012-1  rejected.STEP 008-011-0  accepted.STEP 008-011-1  rejected.STEP 008-010-0  rejected.STEP 008-010-1  rejected.STEP 008-009-0  identical.   STEP 008-009-1  identical.   STEP 008-008-0  identical.   STEP 008-008-1  identical.   STEP 008-007-0  identical.   STEP 008-007-1  identical.   STEP 008-006-0  accepted.STEP 008-006-1  identical.   STEP 008-005-0  identical.   STEP 008-005-1  rejected.STEP 008-004-0  identical.   STEP 008-004-1  identical.   STEP 008-003-0  identical.   STEP 008-003-1  identical.   STEP 008-002-0  identical.   STEP 008-002-1  identical.   STEP 008-001-0  identical.   STEP 008-001-1  identical.   STEP 009-001-0  identical.   STEP 009-001-1  identical.   STEP 009-002-0  identical.   STEP 009-002-1  identical.   STEP 009-003-0  identical.   STEP 009-003-1  identical.   STEP 009-004-0  identical.   STEP 009-004-1  identical.   STEP 009-005-0  identical.   STEP 009-005-1  rejected.STEP 009-006-0  identical.   STEP 009-006-1  identical.   STEP 009-007-0  identical.   STEP 009-007-1  identical.   STEP 009-008-0  identical.   STEP 009-008-1  identical.   STEP 009-009-0  identical.   STEP 009-009-1  identical.   STEP 009-010-0  rejected.STEP 009-010-1  rejected.STEP 009-011-0  rejected.STEP 009-011-1  rejected.STEP 009-012-0  identical.   STEP 009-012-1  rejected.STEP 009-013-0  rejected.
+Oscillating.
+
+done
+dvtditr (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Starting MAFFT on results/analysis_Zea_Physco_Solanum/combined_sequences.faa...
+MAFFT completed: results/analysis_Zea_Physco_Solanum/aligned.fasta
+
+============================================================
+New task started in results/analysis_Zea_Physco_Solanum
+Start MAFFT Alignment...
+MAFFT finished
+
+Task finished in results/analysis_Zea_Physco_Solanum
+============================================================
+
+FASTA file written: results/analysis_Zea_Physco_Solanum/aligned_cleaned_strict.fasta
+Mapping saved: results/analysis_Zea_Physco_Solanum/fasta_header_mapping.json
+FASTA file written: results/analysis_Zea_Physco_Solanum/aligned_cleaned_strict.fasta
+Mapping saved: results/analysis_Zea_Physco_Solanum/fasta_header_mapping.json
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: results/analysis_Zea_Physco_Solanum/aligned_cleaned_strict.fasta
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.08 seconds
+Refining topology: 22 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
+      0.10 seconds: ME NNI round 3 of 22, 1 of 42 splits
+      0.45 seconds: ME NNI round 8 of 22, 1 of 42 splits
+      0.89 seconds: ME NNI round 15 of 22, 1 of 42 splits
+Total branch-length 16.815 after 0.92 sec
+      1.40 seconds: ML NNI round 1 of 11, 1 of 42 splits
+ML-NNI round 1: LogLk = -54712.567 NNIs 8 max delta 3.89 Time 3.09
+      3.11 seconds: Site likelihoods with rate category 1 of 20
+      3.23 seconds: Site likelihoods with rate category 5 of 20
+      3.33 seconds: Site likelihoods with rate category 8 of 20
+      3.47 seconds: Site likelihoods with rate category 11 of 20
+      3.59 seconds: Site likelihoods with rate category 15 of 20
+      3.71 seconds: Site likelihoods with rate category 19 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.870 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -51844.514 NNIs 5 max delta 3.71 Time 4.72
+ML-NNI round 3: LogLk = -51842.644 NNIs 1 max delta 1.41 Time 5.30
+      5.30 seconds: ML NNI round 4 of 11, 1 of 42 splits
+ML-NNI round 4: LogLk = -51842.624 NNIs 0 max delta 0.00 Time 5.64
+Turning off heuristics for final round of ML NNIs (converged)
+      5.63 seconds: ML NNI round 5 of 11, 1 of 42 splits
+ML-NNI round 5: LogLk = -51834.359 NNIs 0 max delta 0.00 Time 7.30 (final)
+      7.29 seconds: ML Lengths 1 of 42 splits
+Optimize all lengths: LogLk = -51833.962 Time 7.75
+Total time: 9.30 seconds Unique: 44/46 Bad splits: 0/41
+Start FastTree with results/analysis_Zea_Physco_Solanum/aligned_cleaned_strict.fasta...
+FastTree tree saved: results/analysis_Zea_Physco_Solanum/phylo_tree.nwk
+
+============================================================
+New task started in results/analysis_Zea_Physco_Solanum
+Start phylogeny creation based on: results/analysis_Zea_Physco_Solanum/aligned.fasta
+FASTA cleaned – FastTree is started...
+Tree successfully created
+
+Task finished in results/analysis_Zea_Physco_Solanum
+============================================================
+

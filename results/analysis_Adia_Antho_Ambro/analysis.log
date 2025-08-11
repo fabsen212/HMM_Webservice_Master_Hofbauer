@@ -1,0 +1,343 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF18253.hmm
+# target sequence database:        database/proteins/Adiantum_capillus-veneris.faa
+# per-dom hits tabular output:     results/test_oidaa1/hmmsearch_Adiantum_capillus-veneris.txt
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HipN  [M=42]
+Accession:   PF18253.6
+Description: Hsp70-interacting protein N N-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                        -----------
+    8.2e-16   58.2   0.1      2e-15   57.0   0.1    1.7  1  rna-gnl|WGS:JABFUD|Adc21655.rna  
+
+
+Domain annotation for each sequence (and alignments):
+>> rna-gnl|WGS:JABFUD|Adc21655.rna  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.0   0.1   6.4e-20     2e-15       1      42 []       2      43 ..       2      43 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 57.0 bits;  conditional E-value: 6.4e-20
+                             HipN  1 DpaklslLkqFVelckanPeiLhePeLaFFKefleslGAtvP 42
+                                     Dp+k+++Lk+F++lc++nP++L +P+L FF+++le+l A++P
+  rna-gnl|WGS:JABFUD|Adc21655.rna  2 DPRKIAELKAFIQLCDSNPSVLQDPSLRFFRTYLEKLEAKLP 43
+                                     89**************************************99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (42 nodes)
+Target sequences:                      31244  (12042041 residues searched)
+Passed MSV filter:                       691  (0.0221162); expected 624.9 (0.02)
+Passed bias filter:                      622  (0.0199078); expected 624.9 (0.02)
+Passed Vit filter:                        39  (0.00124824); expected 31.2 (0.001)
+Passed Fwd filter:                         2  (6.40123e-05); expected 0.3 (1e-05)
+Initial search space (Z):              31244  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.09u 0.01s 00:00:00.10 Elapsed: 00:00:00.06
+# Mc/sec: 8266.70
+//
+[ok]
+
+Running hmmsearch on database/proteins/Adiantum_capillus-veneris.faa with model uploads/PF18253.hmm
+Filtered results saved in results/test_oidaa1/hmmsearch_Adiantum_capillus-veneris_filtered.txt
+Found 1 genes after filtering.
+Gene IDs written to results/test_oidaa1/found_genes_Adiantum_capillus-veneris.txt
+
+============================================================
+New task started in results/test_oidaa1
+Start HMM search: Adiantum_capillus-veneris.faa
+Filter: E=1e-3, Coverage=80, Min Length=40
+HMM search finished
+
+Task finished in results/test_oidaa1
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF18253.hmm
+# target sequence database:        database/proteins/Amborella_trichipoda.faa
+# per-dom hits tabular output:     results/test_oidaa1/hmmsearch_Amborella_trichipoda.txt
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HipN  [M=42]
+Accession:   PF18253.6
+Description: Hsp70-interacting protein N N-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                      -----------
+    1.1e-05   25.6   0.0    2.9e-05   24.3   0.0    1.8  1  evm_27.model.AmTr_v1.0_scaffold00060.150.v1.0  
+
+
+Domain annotation for each sequence (and alignments):
+>> evm_27.model.AmTr_v1.0_scaffold00060.150.v1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.0   1.1e-09   2.9e-05      21      42 .]       1      22 [.       1      22 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 24.3 bits;  conditional E-value: 1.1e-09
+                                           HipN 21 iLhePeLaFFKefleslGAtvP 42
+                                                   +L +P+L FF+++le lGA++P
+  evm_27.model.AmTr_v1.0_scaffold00060.150.v1.0  1 MLRDPSLGFFRDYLERLGAKLP 22
+                                                   7899*****************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (42 nodes)
+Target sequences:                      26846  (8441233 residues searched)
+Passed MSV filter:                       664  (0.0247337); expected 536.9 (0.02)
+Passed bias filter:                      587  (0.0218655); expected 536.9 (0.02)
+Passed Vit filter:                        44  (0.00163898); expected 26.8 (0.001)
+Passed Fwd filter:                         2  (7.4499e-05); expected 0.3 (1e-05)
+Initial search space (Z):              26846  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.10u 0.00s 00:00:00.10 Elapsed: 00:00:00.06
+# Mc/sec: 5588.58
+//
+[ok]
+
+Running hmmsearch on database/proteins/Amborella_trichipoda.faa with model uploads/PF18253.hmm
+Filtered results saved in results/test_oidaa1/hmmsearch_Amborella_trichipoda_filtered.txt
+Found 0 genes after filtering.
+No genes passed the filter. Consider lowering coverage or min_length.
+
+============================================================
+New task started in results/test_oidaa1
+Start HMM search: Amborella_trichipoda.faa
+Filter: E=1e-3, Coverage=80, Min Length=40
+HMM search finished
+
+Task finished in results/test_oidaa1
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF18253.hmm
+# target sequence database:        database/proteins/Anthoceros_agrestis.faa
+# per-dom hits tabular output:     results/test_oidaa1/hmmsearch_Anthoceros_agrestis.txt
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       HipN  [M=42]
+Accession:   PF18253.6
+Description: Hsp70-interacting protein N N-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    1.5e-16   60.9   0.3    2.4e-16   60.3   0.3    1.4  1  AagrBONN_evm.model.Sc2ySwM_344.2062.4  
+    1.5e-16   60.9   0.3    2.4e-16   60.3   0.3    1.4  1  AagrBONN_evm.model.Sc2ySwM_344.2062.5  
+    1.8e-16   60.7   0.3      4e-16   59.5   0.3    1.6  1  AagrBONN_evm.model.Sc2ySwM_344.2062.2  
+    2.4e-16   60.3   0.3    3.9e-16   59.6   0.3    1.4  1  AagrBONN_evm.model.Sc2ySwM_344.2062.3  
+
+
+Domain annotation for each sequence (and alignments):
+>> AagrBONN_evm.model.Sc2ySwM_344.2062.4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.3   0.3   2.4e-20   2.4e-16       1      42 []       2      43 ..       2      43 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 60.3 bits;  conditional E-value: 2.4e-20
+                                   HipN  1 DpaklslLkqFVelckanPeiLhePeLaFFKefleslGAtvP 42
+                                           D+akl++LkqFV++++anP++L +P+L FF++fl  lGA++P
+  AagrBONN_evm.model.Sc2ySwM_344.2062.4  2 DAAKLAELKQFVKQVEANPAVLQDPSLHFFRDFLDRLGAKLP 43
+                                           899**************************************9 PP
+
+>> AagrBONN_evm.model.Sc2ySwM_344.2062.5  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.3   0.3   2.4e-20   2.4e-16       1      42 []       2      43 ..       2      43 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 60.3 bits;  conditional E-value: 2.4e-20
+                                   HipN  1 DpaklslLkqFVelckanPeiLhePeLaFFKefleslGAtvP 42
+                                           D+akl++LkqFV++++anP++L +P+L FF++fl  lGA++P
+  AagrBONN_evm.model.Sc2ySwM_344.2062.5  2 DAAKLAELKQFVKQVEANPAVLQDPSLHFFRDFLDRLGAKLP 43
+                                           899**************************************9 PP
+
+>> AagrBONN_evm.model.Sc2ySwM_344.2062.2  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   0.3     4e-20     4e-16       1      42 []       2      43 ..       2      43 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 4e-20
+                                   HipN  1 DpaklslLkqFVelckanPeiLhePeLaFFKefleslGAtvP 42
+                                           D+akl++LkqFV++++anP++L +P+L FF++fl  lGA++P
+  AagrBONN_evm.model.Sc2ySwM_344.2062.2  2 DAAKLAELKQFVKQVEANPAVLQDPSLHFFRDFLDRLGAKLP 43
+                                           899**************************************9 PP
+
+>> AagrBONN_evm.model.Sc2ySwM_344.2062.3  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.6   0.3   3.9e-20   3.9e-16       1      42 []       2      43 ..       2      43 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 59.6 bits;  conditional E-value: 3.9e-20
+                                   HipN  1 DpaklslLkqFVelckanPeiLhePeLaFFKefleslGAtvP 42
+                                           D+akl++LkqFV++++anP++L +P+L FF++fl  lGA++P
+  AagrBONN_evm.model.Sc2ySwM_344.2062.3  2 DAAKLAELKQFVKQVEANPAVLQDPSLHFFRDFLDRLGAKLP 43
+                                           899**************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (42 nodes)
+Target sequences:                      39981  (16956919 residues searched)
+Passed MSV filter:                       984  (0.0246117); expected 799.6 (0.02)
+Passed bias filter:                      943  (0.0235862); expected 799.6 (0.02)
+Passed Vit filter:                        72  (0.00180086); expected 40.0 (0.001)
+Passed Fwd filter:                         4  (0.000100048); expected 0.4 (1e-05)
+Initial search space (Z):              39981  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.14u 0.01s 00:00:00.15 Elapsed: 00:00:00.09
+# Mc/sec: 7748.52
+//
+[ok]
+
+Running hmmsearch on database/proteins/Anthoceros_agrestis.faa with model uploads/PF18253.hmm
+Filtered results saved in results/test_oidaa1/hmmsearch_Anthoceros_agrestis_filtered.txt
+Found 4 genes after filtering.
+Gene IDs written to results/test_oidaa1/found_genes_Anthoceros_agrestis.txt
+
+============================================================
+New task started in results/test_oidaa1
+Start HMM search: Anthoceros_agrestis.faa
+Filter: E=1e-3, Coverage=80, Min Length=40
+HMM search finished
+
+Task finished in results/test_oidaa1
+============================================================
+
+Sequences are merged in: results/test_oidaa1/combined_sequences.faa
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (aa) Version 7.505
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+rescale = 1
+
+    0 / 5
+Segment   1/  1    1- 394
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  accepted.STEP 001-003-0  accepted.STEP 001-003-1  rejected.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  rejected.STEP 002-002-1  rejected.STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Converged.
+
+done
+dvtditr (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Starting MAFFT on results/test_oidaa1/combined_sequences.faa...
+MAFFT completed: results/test_oidaa1/aligned.fasta
+
+============================================================
+New task started in results/test_oidaa1
+Start MAFFT Alignment...
+MAFFT finished
+
+Task finished in results/test_oidaa1
+============================================================
+
+FASTA file written: results/test_oidaa1/aligned_cleaned_strict.fasta
+Mapping saved: results/test_oidaa1/fasta_header_mapping.json
+FASTA file written: results/test_oidaa1/aligned_cleaned_strict.fasta
+Mapping saved: results/test_oidaa1/fasta_header_mapping.json
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: results/test_oidaa1/aligned_cleaned_strict.fasta
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.00 seconds
+Refining topology: 8 rounds ME-NNIs, 2 rounds ME-SPRs, 4 rounds ML-NNIs
+Total branch-length 0.476 after 0.00 sec
+ML-NNI round 1: LogLk = -1696.591 NNIs 1 max delta 6.23 Time 0.01
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.702 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -1666.009 NNIs 0 max delta 0.00 Time 0.04
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 3: LogLk = -1665.977 NNIs 0 max delta 0.00 Time 0.04 (final)
+Optimize all lengths: LogLk = -1665.968 Time 0.05
+Total time: 0.06 seconds Unique: 4/5 Bad splits: 0/1
+Start FastTree with results/test_oidaa1/aligned_cleaned_strict.fasta...
+FastTree tree saved: results/test_oidaa1/phylo_tree.nwk
+
+============================================================
+New task started in results/test_oidaa1
+Start phylogeny creation based on: results/test_oidaa1/aligned.fasta
+FASTA cleaned – FastTree is started...
+Tree successfully created
+
+Task finished in results/test_oidaa1
+============================================================
+

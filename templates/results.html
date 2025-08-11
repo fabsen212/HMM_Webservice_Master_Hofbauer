@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="big_content">
+
+    <!-- Sticky Button-Reihe -->
+    <div class="sticky-button-row">
+        <button class="collapsible" data-target="tree">Visualisation of the phylogenetic tree</button>
+        <button class="collapsible" data-target="table">Show Resulttable</button>
+        <button class="collapsible" data-target="download">Download Results</button>
+    </div>
+
+    <!-- Inhalte der Bereiche -->
+    <div id="section-tree" class="collapsible-section">
+    <div class="collapsible-content">
+        {% if tree_image %}
+            <div id="zoom-container" style="overflow: auto; border: 1px solid #ccc; height: 80vh;">
+                <img id="zoom-image" src="{{ url_for('serve_result_file', filename=tree_image) }}"
+                    alt="Phylogenetic Tree" style="display: block; transform-origin: 0 0;" />
+        </div>
+        {% else %}
+            <p>No tree available.</p>
+        {% endif %}
+        <div style="margin-top: 10px; display: flex; gap: 10px; align-items: center;">
+            <button id="reset-zoom" class="btn btn-secondary">Reset Zoom & Position</button>
+        </div>
+    </div>
+</div>
+
+    <div id="section-table" class="collapsible-section">
+        <div class="collapsible-content">
+            <div id="results">
+                <pre id="result-text"></pre>
+            </div>
+            <br>
+            <button onclick="fetchResults()" class="btn btn-outline-secondary" style="color: black;">📄 Load results</button>  
+        </div>
+    </div>
+
+    <div id="section-download" class="collapsible-section">
+        <div class="collapsible-content">
+            <label for="report_format">Select file format:</label>
+            <select id="report_format" class="form-select w-auto d-inline-block ms-2 me-2">
+                <option value="pdf">PDF</option>
+                <option value="csv">CSV</option>
+                <option value="nwk">Newick</option>
+            </select>
+            <button onclick="generateReport()" class="btn btn-outline-secondary" >Download File</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

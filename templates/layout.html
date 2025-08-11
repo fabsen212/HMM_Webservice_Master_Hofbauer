@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMM Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="header d-flex justify-content-between align-items-center">
+        <div>
+            <h1>HMM & Phylogenetic Analysis Tool</h1>
+        </div>
+    </div>
+
+    <div class="nav-tabs">
+        <a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a>
+        <a href="/search" class="{% if request.path.startswith('/search') %}active{% endif %}">Search</a>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <script src="{{ url_for('static', filename='script_search.js') }}"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</body>
+</html>

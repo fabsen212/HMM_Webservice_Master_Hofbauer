@@ -1,0 +1,737 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF00075.hmm
+# target sequence database:        database/proteins/Amborella_trichipoda.faa
+# per-dom hits tabular output:     results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Amborella_trichipoda.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RNase_H  [M=141]
+Accession:   PF00075.30
+Description: RNase H
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                      -----------
+      8e-12   46.1   0.1    3.3e-11   44.1   0.1    1.8  1  evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0   
+    1.5e-11   45.1   0.5    3.5e-11   44.0   0.0    1.9  2  evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0   
+    6.3e-09   36.7   0.1      1e-07   32.8   0.0    2.5  2  evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0  
+     0.0029   18.3   0.0     0.0038   17.9   0.0    1.1  1  evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0   
+
+
+Domain annotation for each sequence (and alignments):
+>> evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.1   0.1   4.9e-15   3.3e-11       9     139 ..     130     250 ..     124     252 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 44.1 bits;  conditional E-value: 4.9e-15
+                                                   EEEEECTTTCEEEEEEECTT...E..EEEEEECCCCHHHHHHHHHHHHHHH.TT.SC.SEEEEEE CS
+                                       RNase_H   9 DGsclgnpgkggagavlyke...h.knisasleeattnnraELeAvieALk.al.ep.skvniyt 66 
+                                                   DG+++gnpgkggaga++ +e      +++++l ++ tnn aE +A+i  +k al ++  ++ +  
+  evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0 130 DGASKGNPGKGGAGAIIRTEdgrVvCQLREGL-GVVTNNVAEYRALILGMKfALkKGfDRIRVQG 193
+                                                   ***************99767343122333444.6*****************998544799***** PP
+
+                                                   SSHHHHHHHHCCCHHHHHTTSSSETTSSBHTTHHHHHHHHHCHCSSEEEEEE-SCCSSSTHHHHH CS
+                                       RNase_H  67 DSqYvvkgitqwvegwkkngwkttseqkpvknkdlwellkelikkhkvslkwvkgHagnpkgNem 131
+                                                   DS+ v++ i+++ ++ +kn ++ ++e k++k k             +++++    H g  + N +
+  evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0 194 DSMLVCMQIQDIWKTKNKNIMDLSMEAKELKKKF-----------TSFQIN----HVGR-EYNSE 242
+                                                   *******888744444444444444444444322...........234444....4477.57777 PP
+
+                                                   HHHHHHHH CS
+                                       RNase_H 132 aDklakqa 139
+                                                   aD la++a
+  evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0 243 ADALANAA 250
+                                                   77777665 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.0   0.1       1.7   1.1e+04     100     115 ..     198     213 ..     174     233 .. 0.53
+   2 !   44.0   0.0   5.3e-15   3.5e-11       8     101 ..     264     363 ..     257     387 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: -3.0 bits;  conditional E-value: 1.7
+                                                   HHHHHHHHCHCSSEEE CS
+                                       RNase_H 100 dlwellkelikkhkvs 115
+                                                    +++ ++++ +++++s
+  evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0 198 ATIASINDMESNEQFS 213
+                                                   2333333333344444 PP
+
+  == domain 2  score: 44.0 bits;  conditional E-value: 5.3e-15
+                                                   EEEEEECTTTCEEEEEEECTTE..EEEEEEC..CCCHHHHHHHHHHHHHHH.TT.SC.SEEEEEE CS
+                                       RNase_H   8 tDGsclgnpgkggagavlykeh.knisasle..eattnnraELeAvieALk.al.ep.skvniyt 66 
+                                                    DGs++gnpg+ggaga+l +++ + i +  e  +  tnn aE +Avi  +k al ++ ++v++  
+  evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0 264 FDGSSKGNPGRGGAGAILRTDDgRVICRMREglGIVTNNVAEYRAVILGMKcALrKGvTQVQVQG 328
+                                                   6*****************7774334443333468*****************77754479****** PP
+
+                                                   SSHHHHHHHHCCCHHHHHTTSSSETTSSBHTTHHH CS
+                                       RNase_H  67 DSqYvvkgitqwvegwkkngwkttseqkpvknkdl 101
+                                                   DS+ v++ i++   + ++n +k ++e +++k +  
+  evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0 329 DSKLVCMQIQNLWRTKHHNLIKLSKEAQELKKRFS 363
+                                                   *******9998666555656655666556655333 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   0.0      0.72   4.8e+03      59      86 ..      14      41 ..       6      56 .. 0.59
+   2 !   32.8   0.0   1.5e-11     1e-07       8      87 ..     149     235 ..     144     270 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 0.72
+                                                   CSEEEEEESSHHHHHHHHCCCHHHHHTT CS
+                                        RNase_H 59 pskvniytDSqYvvkgitqwvegwkkng 86
+                                                   +++v++  D  +  k+ +++v++++k  
+  evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0 14 QKSVVVAVDRLFHHKVYNRYVKRTSKFM 41
+                                                   4566666666666666666666654433 PP
+
+  == domain 2  score: 32.8 bits;  conditional E-value: 1.5e-11
+                                                    EEEEEECTTTCEEEEEEE..CTTE..EEEEEECCCCHHHHHHHHHHHHHHH.TT.SC.SEEEEE CS
+                                        RNase_H   8 tDGsclgnpgkggagavl..ykeh.knisasleeattnnraELeAvieALk.al.ep.skvniy 65 
+                                                    +DG+++gnpg++g g +l  ++++     as  ++ttn  aE++A++e +k    e+ +k+ + 
+  evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0 149 VDGASSGNPGRAGGGGILrnHQGKwLIAFASHYGTTTNVAAEFRALYEGVKlCKeEGyKKIILE 212
+                                                    8*******99886666553444464444444447*****************7544226****** PP
+
+                                                    ESSHHHHHHHHC.CCHHHHHTTS CS
+                                        RNase_H  66 tDSqYvvkgitq.wvegwkkngw 87 
+                                                    +DS+ +v++it+ +v  w+  +w
+  evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0 213 SDSMMLVDVITHkMVVPWQVWTW 235
+                                                    ********998757777876666 PP
+
+>> evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0   5.7e-07    0.0038       8      76 ..      53     126 ..      49     139 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 5.7e-07
+                                                   EEEEEECTTTCEEEEEEECTT....E.EEEEEECCCCHHHHHHHHHHHHHHH.TTSC..SEEEEE CS
+                                       RNase_H   8 tDGsclgnpgkggagavlyke....hknisasleeattnnraELeAvieALk.alep..skvniy 65 
+                                                   +DG+ lgn  ++gag v+++       ++s++l + ttn  aE+ A+++ ++ a e+  ++v i 
+  evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0  53 VDGA-LGNLDHSGAGGVFKNSmsilGWTVSSRL-GNTTNFFAEFAALFQGIEiAKEKgvERVWIE 115
+                                                   7999.8999999999999545454313555555.6*****************55333578888** PP
+
+                                                   ESSHHHHHHHH CS
+                                       RNase_H  66 tDSqYvvkgit 76 
+                                                    DS  v+++i 
+  evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0 116 CDSIAVIEAIK 126
+                                                   ***99998775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (141 nodes)
+Target sequences:                      26846  (8441233 residues searched)
+Passed MSV filter:                       686  (0.0255532); expected 536.9 (0.02)
+Passed bias filter:                      554  (0.0206362); expected 536.9 (0.02)
+Passed Vit filter:                        33  (0.00122923); expected 26.8 (0.001)
+Passed Fwd filter:                         7  (0.000260746); expected 0.3 (1e-05)
+Initial search space (Z):              26846  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.18u 0.01s 00:00:00.19 Elapsed: 00:00:00.07
+# Mc/sec: 16598.94
+//
+[ok]
+
+Running hmmsearch on database/proteins/Amborella_trichipoda.faa with model uploads/PF00075.hmm
+Filtered results saved in results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Amborella_trichipoda_filtered.txt
+Found 4 genes after filtering.
+Gene IDs written to results/analysis_Ambro_Oryza_Physco_Zea/found_genes_Amborella_trichipoda.txt
+
+============================================================
+New task started in results/analysis_Ambro_Oryza_Physco_Zea
+Start HMM search: Amborella_trichipoda.faa
+Filter: E=1e-2, Coverage=50, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Ambro_Oryza_Physco_Zea
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF00075.hmm
+# target sequence database:        database/proteins/Physcomitrium_patens.faa
+# per-dom hits tabular output:     results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Physcomitrium_patens.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RNase_H  [M=141]
+Accession:   PF00075.30
+Description: RNase H
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    9.6e-09   36.6   0.0    1.9e-08   35.6   0.0    1.5  1  PAC:18062865  
+    2.4e-07   32.1   0.0    3.8e-07   31.4   0.0    1.2  1  PAC:18039203  
+
+
+Domain annotation for each sequence (and alignments):
+>> PAC:18062865  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.6   0.0   9.8e-13   1.9e-08       8     139 ..     120     241 ..     114     243 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 35.6 bits;  conditional E-value: 9.8e-13
+                   EEEEEECTTTCEEEEEEECTT...E..EEEEEECCCCHHHHHHHHHHHHHHH.TT.SC.SEEEEEESSHHHHHHHHCCCHHHHHTTSSSETTSSBHT CS
+       RNase_H   8 tDGsclgnpgkggagavlyke...h.knisasleeattnnraELeAvieALk.al.ep.skvniytDSqYvvkgitqwvegwkkngwkttseqkpvk 97 
+                    DG++++npg++gaga++ +       ++++++ +  tnn aE +A+i  Lk al ++  +v +  DS+ v++   q++ +wk n+   ++     k
+  PAC:18062865 120 YDGASKKNPGPAGAGALVRRPdgsVvCELREGI-GSATNNVAEYRAFILGLKgALdRGiYRVRVQGDSKLVCE---QVLGRWKVNQPTLATLC---K 209
+                   5***************99777333122333444.69****************998755699************...66668877666333333...2 PP
+
+                   T.HHHHHHHHHCHCSSEEEEEE-SCCSSSTHHHHHHHHHHHHH CS
+       RNase_H  98 n.kdlwellkelikkhkvslkwvkgHagnpkgNemaDklakqa 139
+                   + ++l++         ++s+++v       + N +aD+la++a
+  PAC:18062865 210 EaQSLIQH------FSEFSIQHVD----R-ELNSAADQLANEA 241
+                   21223333......3578899885....3.5688999999887 PP
+
+>> PAC:18039203  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.0     2e-11   3.8e-07       9      87 ..     116     197 ..     109     224 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 2e-11
+                   EEEEECTTTCEEEEEEECTT....E.EEEEEECCCCHHHHHHHHHHHHHHH.TT.SC.SEEEEEESSHHHHHHHHCCCHHHHHTTS CS
+       RNase_H   9 DGsclgnpgkggagavlyke....hknisasleeattnnraELeAvieALk.al.ep.skvniytDSqYvvkgitqwvegwkkngw 87 
+                   DG+++gnpg++gaga++         +++++l +  tnn aE +A+i  Lk al ++  +v +  DS+ v++   q++ +wk n+ 
+  PAC:18039203 116 DGASKGNPGPAGAGALVRGPdgsvFCELREGL-GSVTNNVAEYRAFILGLKgALdRGiYRVRVQGDSKLVCQ---QVLGKWKVNDE 197
+                   ***************88655344323455555.69****************998755699************...55668877665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (141 nodes)
+Target sequences:                      38352  (13533807 residues searched)
+Passed MSV filter:                       987  (0.0257353); expected 767.0 (0.02)
+Passed bias filter:                      799  (0.0208333); expected 767.0 (0.02)
+Passed Vit filter:                        59  (0.00153838); expected 38.4 (0.001)
+Passed Fwd filter:                         8  (0.000208594); expected 0.4 (1e-05)
+Initial search space (Z):              38352  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.19u 0.01s 00:00:00.20 Elapsed: 00:00:00.07
+# Mc/sec: 24099.30
+//
+[ok]
+
+Running hmmsearch on database/proteins/Physcomitrium_patens.faa with model uploads/PF00075.hmm
+Filtered results saved in results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Physcomitrium_patens_filtered.txt
+Found 2 genes after filtering.
+Gene IDs written to results/analysis_Ambro_Oryza_Physco_Zea/found_genes_Physcomitrium_patens.txt
+
+============================================================
+New task started in results/analysis_Ambro_Oryza_Physco_Zea
+Start HMM search: Physcomitrium_patens.faa
+Filter: E=1e-2, Coverage=50, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Ambro_Oryza_Physco_Zea
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF00075.hmm
+# target sequence database:        database/proteins/Zea_mays.faa
+# per-dom hits tabular output:     results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Zea_mays.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RNase_H  [M=141]
+Accession:   PF00075.30
+Description: RNase H
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    2.9e-09   40.0   0.0    6.6e-09   38.9   0.0    1.6  2  Zm00001d032798_T001.RefGen_V4  
+    9.2e-06   28.7   0.0    1.3e-05   28.1   0.0    1.2  1  Zm00001d049892_T001.RefGen_V4  
+    4.3e-05   26.5   0.0    7.1e-05   25.8   0.0    1.3  1  Zm00001d035750_T001.RefGen_V4  
+
+
+Domain annotation for each sequence (and alignments):
+>> Zm00001d032798_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.9   0.0       2.3     1e+05      66      75 ..      60      69 ..      59      71 .. 0.81
+   2 !   38.9   0.0   1.5e-13   6.6e-09       5      98 ..     153     252 ..     150     277 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: -3.9 bits;  conditional E-value: 2.3
+                                   ESSHHHHHHH CS
+                        RNase_H 66 tDSqYvvkgi 75
+                                   +D +Yv++++
+  Zm00001d032798_T001.RefGen_V4 60 SDATYVINAA 69
+                                   8999*99965 PP
+
+  == domain 2  score: 38.9 bits;  conditional E-value: 1.5e-13
+                                    EEEEEEEEECTTTCEEEEEEECTTE..EEEEEEC..CCCHHHHHHHHHHHHHHH.TTSC..SEEEEEESSHHHHHHHHCC CS
+                        RNase_H   5 tvytDGsclgnpgkggagavlykeh.knisasle..eattnnraELeAvieALk.alep..skvniytDSqYvvkgitqw 78 
+                                    +++ DG+++gnpgk+gagavl +e+ + is+  e  ++ tnn aE + +i  Lk a ++  +++++  DSq v++ ++ +
+  Zm00001d032798_T001.RefGen_V4 153 ILHFDGASKGNPGKAGAGAVLMTEDgRVISRLREglGVATNNVAEYRGLILGLKyAIRHgfKRIKVHGDSQLVCNQVNGV 232
+                                    5789***************986664345554444457*****************6666678**************99987 PP
+
+                                    CHHHHHTTSSSETTSSBHTT CS
+                        RNase_H  79 vegwkkngwkttseqkpvkn 98 
+                                     ++ + n ++  +e + +k+
+  Zm00001d032798_T001.RefGen_V4 233 WQTKQPNMMELCTEARKLKE 252
+                                    77666666655555555555 PP
+
+>> Zm00001d049892_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.1   0.0     3e-10   1.3e-05       8      81 ..     126     205 ..     121     236 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 28.1 bits;  conditional E-value: 3e-10
+                                    EEEEEECTTTCEEEEEEECTTE..EEEEEEC...CCCHHHHHHHHHHHHHHH.TT.SC.SEEEEEESSHHHHHHHHCCCH CS
+                        RNase_H   8 tDGsclgnpgkggagavlykeh.knisasle...eattnnraELeAvieALk.al.ep.skvniytDSqYvvkgitqwve 80 
+                                     DG+++gnpgk+gaga++ + + + ++a+l+   +  tnn aE +A+i  L  a+ ++ + +    DS+ v++ ++   +
+  Zm00001d049892_T001.RefGen_V4 126 FDGASKGNPGKAGAGAIIRQVDgS-VIAQLReglGIATNNAAEYRALILGLTyAAkKGfKYIRAQGDSKLVCNQVVASFN 204
+                                    5***************99766533.33333335679****************76543367788999*****996665444 PP
+
+                                    H CS
+                        RNase_H  81 g 81 
+                                    +
+  Zm00001d049892_T001.RefGen_V4 205 M 205
+                                    3 PP
+
+>> Zm00001d035750_T001.RefGen_V4  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.0   1.6e-09   7.1e-05       8      73 ..     197     268 ..     192     282 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 25.8 bits;  conditional E-value: 1.6e-09
+                                    EEEEEECTTTCEEEEEEECTTE..EEEEEEC..CCCHHHHHHHHHHHHHHH.TTSC...SEEEEEESSHHHHH CS
+                        RNase_H   8 tDGsclgnpgkggagavlykeh.knisasle..eattnnraELeAvieALk.alep...skvniytDSqYvvk 73 
+                                     DG+c+gnpgk+gag+++ + + + i+   e  +  tnn aE +A+i  L+ a  +   + +    DS+ v++
+  Zm00001d035750_T001.RefGen_V4 197 FDGACKGNPGKSGAGVIIRRLDgSVIAVLREglGIMTNNAAEYRALILGLNyAS-KkgfKYIRCQGDSKLVCN 268
+                                    5***************997664333333222357*****************654.324677778899998887 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (141 nodes)
+Target sequences:                     131496  (63319919 residues searched)
+Passed MSV filter:                      3677  (0.0279628); expected 2629.9 (0.02)
+Passed bias filter:                     2620  (0.0199246); expected 2629.9 (0.02)
+Passed Vit filter:                       178  (0.00135365); expected 131.5 (0.001)
+Passed Fwd filter:                         8  (6.08384e-05); expected 1.3 (1e-05)
+Initial search space (Z):             131496  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.80u 0.01s 00:00:00.81 Elapsed: 00:00:00.29
+# Mc/sec: 29900.12
+//
+[ok]
+
+Running hmmsearch on database/proteins/Zea_mays.faa with model uploads/PF00075.hmm
+Filtered results saved in results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Zea_mays_filtered.txt
+Found 3 genes after filtering.
+Gene IDs written to results/analysis_Ambro_Oryza_Physco_Zea/found_genes_Zea_mays.txt
+
+============================================================
+New task started in results/analysis_Ambro_Oryza_Physco_Zea
+Start HMM search: Zea_mays.faa
+Filter: E=1e-2, Coverage=50, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Ambro_Oryza_Physco_Zea
+============================================================
+
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  uploads/PF00075.hmm
+# target sequence database:        database/proteins/Oryza_sativa.faa
+# per-dom hits tabular output:     results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Oryza_sativa.txt
+# sequence reporting threshold:    E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RNase_H  [M=141]
+Accession:   PF00075.30
+Description: RNase H
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    7.4e-06   27.7   0.0    3.2e-05   25.6   0.0    2.1  1  ChrUn.fgenesh.mRNA.11.MSUv7.0  
+    5.5e-05   24.9   0.0    0.00021   23.0   0.0    2.0  1  ChrSy.fgenesh.mRNA.77.MSUv7.0  
+      9e-05   24.2   0.0    0.00015   23.4   0.0    1.4  1  LOC_Os12g31630.1.MSUv7.0       
+    0.00027   22.6   0.1     0.0005   21.7   0.1    1.4  1  LOC_Os02g54480.1.MSUv7.0       
+    0.00041   22.0   0.5     0.0011   20.6   0.0    1.9  2  LOC_Os08g09440.1.MSUv7.0       
+    0.00061   21.5   0.1     0.0074   18.0   0.0    2.5  3  LOC_Os02g06215.1.MSUv7.0       
+    0.00099   20.8   0.0      0.003   19.2   0.0    1.8  1  LOC_Os08g19890.1.MSUv7.0       
+     0.0018   19.9   0.0     0.0029   19.3   0.0    1.3  1  LOC_Os02g07860.1.MSUv7.0       
+     0.0023   19.6   0.0     0.0043   18.7   0.0    1.4  1  LOC_Os12g05160.1.MSUv7.0       
+      0.005   18.5   0.0     0.0074   18.0   0.0    1.3  1  LOC_Os12g33140.1.MSUv7.0       
+     0.0082   17.8   0.0      0.016   16.9   0.0    1.5  1  LOC_Os10g34140.1.MSUv7.0       
+
+
+Domain annotation for each sequence (and alignments):
+>> ChrUn.fgenesh.mRNA.11.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.0   6.6e-09   3.2e-05       5     140 ..     765     888 ..     761     889 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 6.6e-09
+                                    EEEEEEEEECTTTCEEEEEEE.CTTE..EEEEEECCCCHHHHHHHHHHHHHHHTTSC...SEEEEEESSHHHHHHHHCCC CS
+                        RNase_H   5 tvytDGsclgnpgkggagavl.ykeh.knisasleeattnnraELeAvieALkalep...skvniytDSqYvvkgitqwv 79 
+                                    ++ +DGs +  +g+g a++++ +++    ++a+l+  ttnn+aE eA+   L++++     ++ i tDS+ v + + +  
+  ChrUn.fgenesh.mRNA.11.MSUv7.0 765 VMCSDGSWS-HKGAGIAAVLIsPNGVpIRYAARLQFDTTNNTAEYEAILLGLRKAKVlgvRRFLIQTDSKLVAGHVDKSF 843
+                                    5678***65.88888888866576755678999999*****************64223458999******9999555522 PP
+
+                                    HHHHHTTSSSETTSSBHTTHHHHHHHHHCHCSSEEEEEE-SCCSSSTHHHHHHHHHHHHHH CS
+                        RNase_H  80 egwkkngwkttseqkpvknkdlwellkelikkhkvslkwvkgHagnpkgNemaDklakqaa 140
+                                    e +k++g+         k   ++e++    + +k+       H   + +Ne+aD lak+aa
+  ChrUn.fgenesh.mRNA.11.MSUv7.0 844 E-AKEEGM---------KR--YLEAV---RSMEKCFTGITVEHLPRG-QNEEADALAKSAA 888
+                                    2.233333.........22..33334...333334444444455564.7999999998875 PP
+
+>> ChrSy.fgenesh.mRNA.77.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.0   0.0   4.4e-08   0.00021       8      93 ..     906     995 ..     899    1005 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 23.0 bits;  conditional E-value: 4.4e-08
+                                    EEEEEECTTTCEEEEEEE.CTTE..EEEEEECCCCHHHHHHHHHHHHHHHTTSC...SEEEEEESSHHHHHHHHCCCHHH CS
+                        RNase_H   8 tDGsclgnpgkggagavl.ykeh.knisasleeattnnraELeAvieALkalep...skvniytDSqYvvkgitqwvegw 82 
+                                    +D s  + +g+g a++++ +++    ++a+l+  ttnn aE eAv   L++++     ++ i+tDS+ v + + +  e  
+  ChrSy.fgenesh.mRNA.77.MSUv7.0 906 SDSS-WSHKGAGVAAVLFsPNGVpIRYAARLQFDTTNNAAEYEAVLLGLRKAKAlgvRRLLIRTDSKLVAGHVDKSFEA- 983
+                                    4555.6689999999977576755678999999*****************65334468999*********988886654. PP
+
+                                    HHTTSSS.ETTS CS
+                        RNase_H  83 kkngwkt.tseq 93 
+                                    k++g+k+ ++e+
+  ChrSy.fgenesh.mRNA.77.MSUv7.0 984 KEEGMKRdQNEE 995
+                                    666665524443 PP
+
+>> LOC_Os12g31630.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0   3.2e-08   0.00015       5      73 ..     118     193 ..     115     247 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 23.4 bits;  conditional E-value: 3.2e-08
+                               EEEEEEEEECTTTCEEEEEEE.CTT...E..EEEEEECCCCHHHHHHHHHHHHHHH.TT..SCSEEEEEESSHHHHH CS
+                   RNase_H   5 tvytDGsclgnpgkggagavl.yke...h.knisasleeattnnraELeAvieALk.al..epskvniytDSqYvvk 73 
+                                + tDGsc +++g+gg+gav+ +         +s+++  + ++  aEL A  e L+ al  +   +++ tD+  ++k
+  LOC_Os12g31630.1.MSUv7.0 118 KINTDGSCDSKNGNGGVGAVVrD-SsgrVvLALSRHIDRCGSALEAELLACKEGLSlALqyTLLPLVLETDCLEALK 193
+                               578****************9953.336536789999999*****************8885444888999**965555 PP
+
+>> LOC_Os02g54480.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   0.1   1.1e-07    0.0005       5      63 ..     275     336 ..     272     358 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 1.1e-07
+                               EEEEEEEEECTTTCEEEEEEE.CTT.E...EEEEEECCCCHHHHHHHHHHHHHHHTTSCSEEE CS
+                   RNase_H   5 tvytDGsclgnpgkggagavl.yke.h..knisasleeattnnraELeAvieALkalepskvn 63 
+                                + tDG ++gn+++gg+g+v+ ++     +  + +  + +++  aE +A ++A+ka+ +++v+
+  LOC_Os02g54480.1.MSUv7.0 275 KINTDGTYRGNTKQGGWGFVIrDRAgSilQAGAGPAAHLQDAFHAEVIACAAAIKAA-SERVT 336
+                               678****************99554453322344455589****************84.33333 PP
+
+>> LOC_Os08g09440.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.3   0.1       2.8   1.3e+04      79     105 ..     194     225 ..     183     233 .. 0.61
+   2 !   20.6   0.0   2.3e-07    0.0011       6      98 ..     243     338 ..     238     372 .. 0.66
+
+  Alignments for each domain:
+  == domain 1  score: -2.3 bits;  conditional E-value: 2.8
+                               CHHHHHTTSSSETTSSBHTT.....HHHHHHH CS
+                   RNase_H  79 vegwkkngwkttseqkpvkn.....kdlwell 105
+                               + + k++ + +++++k v+n     kd +++l
+  LOC_Os08g09440.1.MSUv7.0 194 LLEIKQHPQANQTKGKHVINywgfkKDSQQRL 225
+                               44456666667888888888665555555555 PP
+
+  == domain 2  score: 20.6 bits;  conditional E-value: 2.3e-07
+                               EEEEEEEECTTTCEEEEEEE.CTT..E..EEEEEECCCCHHHHHHHHHHHHHHH.TT..SCSEEEEEESSHHHHHHHHCCCHHHH CS
+                   RNase_H   6 vytDGsclgnpgkggagavl.yke..h.knisasleeattnnraELeAvieALk.al..epskvniytDSqYvvkgitqwvegwk 83 
+                               v +DGs+  ++g+gg+g+vl ++e        ++l  +  +  aEL A  e +  al  +   +++ tD+  +++    +++  k
+  LOC_Os08g09440.1.MSUv7.0 243 VNADGSYDAQTGTGGIGVVLrDSEgnViAASCKQLASCRNALEAELLACKEGVVlALqwTLLPFVLETDCLVAIQ----MIQSKK 323
+                               678****************9554443122334555578888899****99888767743447899*****76666....455555 PP
+
+                               HTTSSSETTSSBHTT CS
+                   RNase_H  84 kngwkttseqkpvkn 98 
+                               k   + +   ++vk+
+  LOC_Os08g09440.1.MSUv7.0 324 KDMSELAYLIREVKE 338
+                               655556777777777 PP
+
+>> LOC_Os02g06215.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.1       1.3   6.1e+03      78     125 ..     101     148 ..      91     153 .. 0.63
+   2 ?   -0.6   0.0       0.8   3.8e+03      50      88 ..     150     190 ..     145     221 .. 0.57
+   3 !   18.0   0.0   1.6e-06    0.0074       6      75 ..     286     362 ..     282     380 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 1.3
+                               CCHHHHHTTSSSETTSSBHTTHHHHHHHHHCHC.SSEEEEEE-SCCSSS CS
+                   RNase_H  78 wvegwkkngwkttseqkpvknkdlwellkelik.khkvslkwvkgHagn 125
+                                +e+ + ++ + +s++    + ++w++l +l   ++  +++w  gH+++
+  LOC_Os02g06215.1.MSUv7.0 101 EIERRNSRSAPASSSG-GAQSDQVWKRLWKLNCpNKMKHFMWRLGHDTI 148
+                               4555555555555555.45566777777666552666789999999886 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.8
+                               HHHHHHTT...SCSEEEEEESSHHHHHHHHCCCHHHHHTTSS CS
+                   RNase_H  50 vieALkal...epskvniytDSqYvvkgitqwvegwkkngwk 88 
+                               + + Lk     +++k  i++ S++ +k   ++ + w+  + +
+  LOC_Os02g06215.1.MSUv7.0 150 LQMTLKRRgmdIDTKCLIFSGSHFFFK-CKEVKHIWRDLNLE 190
+                               555555322345588889999999999.88888888443332 PP
+
+  == domain 3  score: 18.0 bits;  conditional E-value: 1.6e-06
+                               EEEEEEEECTTTCEEEEEEE.CTTE.EEE..EEEC.CCCHHHHHHHHHHHHHHHTTSC...SEEEEEESSHHHHHHH CS
+                   RNase_H   6 vytDGsclgnpgkggagavl.ykehknis..asle.eattnnraELeAvieALkalep...skvniytDSqYvvkgi 75 
+                               + +DG+ + +++kgg+g+v+ ++e + i+  a+ +   +++  aE  A ++ Lka+++     +++ +DS+ +++++
+  LOC_Os02g06215.1.MSUv7.0 286 INVDGAFKPQEQKGGWGFVIrDTEAQVIQagAGFSsRLQDAFHAEVLAGVKGLKAATSlgmAYIHLESDSMMLIQAL 362
+                               668***************995555344441144446789***************75333458999*****9999965 PP
+
+>> LOC_Os08g19890.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   0.0   6.3e-07     0.003       5     119 ..    1235    1342 ..    1232    1358 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 19.2 bits;  conditional E-value: 6.3e-07
+                                EEEEEEEEECTTTCEEEEEEE..CTTE..EEEEEECCCCHHHHHHHHHHHHHHH..TT.SCSEEEEEESSHHHHHHHHCCCHH CS
+                   RNase_H    5 tvytDGsclgnpgkggagavl..ykeh.knisasleeattnnraELeAvieALk..al.epskvniytDSqYvvkgitqwveg 81  
+                                t++ DGs +  +   g+g+v+  +++   +++ +++   tnn++E eAv + L+  +  e   ++i+ DS  v++ +     g
+  LOC_Os08g19890.1.MSUv7.0 1235 TLFFDGSIS--SYGCGIGLVIisPRGAsFEFAYTIKPYATNNQTEYEAVLKGLQlfKEvEADAIEIMGDSLLVISQLA----G 1311
+                                799****66..445588885524555434555666699****************64336779********98888433....3 PP
+
+                                HHHTTSSSETTSSBHTTHHHHHHHHHCHCSSEEEEEE- CS
+                   RNase_H   82 wkkngwkttseqkpvknkdlwellkelikkhkvslkwv 119 
+                                +    +++++    v n++  el+ke+     v+l++v
+  LOC_Os08g19890.1.MSUv7.0 1312 E----YECKNDTLMVYNEKCRELMKEFR---LVTLRHV 1342
+                                2....22333333355655555553332...2555555 PP
+
+>> LOC_Os02g07860.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   0.0   6.1e-07    0.0029       8     125 ..     108     230 ..     102     236 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 19.3 bits;  conditional E-value: 6.1e-07
+                               EEEEEECTTTCEEEEEEECTT.....E.EEEEEECCCCHHHHHHHHHHHHHHH.TTSC..SEEEEEESSHHHHHHHHCCCHHHHH CS
+                   RNase_H   8 tDGsclgnpgkggagavlyke.....hknisasleeattnnraELeAvieALk.alep..skvniytDSqYvvkgitqwvegwkk 84 
+                                DGs +  +gkgg g+vl +             ++ +t +  aEL+A +e L  al++    + i tD+q +++ ++q  e  + 
+  LOC_Os02g07860.1.MSUv7.0 108 IDGSFQPDTGKGGLGVVLRNRlgeviF-AACGYIQRCTGALEAELMACREGLLmALQWtlLPIIIETDCQEMLN-LLQSKELVRS 190
+                               6*****************655454322.23334458999************9978755337888*****99999.7764444333 PP
+
+                               TTSSSETTSSBHTTHHHHHHHHHCHC..SSEEEEEE-SCCSSS CS
+                   RNase_H  85 ngwkttseqkpvknkdlwellkelik..khkvslkwvkgHagn 125
+                               +        k+v    + +++ +l+k  +++ ++++v + +g 
+  LOC_Os02g07860.1.MSUv7.0 191 EL---MFLVKEVHDLMMGNRVVSLAKvhRNQNRISHVLANKGR 230
+                               22...23333444433333333333322455666677666665 PP
+
+>> LOC_Os12g05160.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.7   0.0     9e-07    0.0043       6     139 ..     164     288 ..     159     289 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 18.7 bits;  conditional E-value: 9e-07
+                               EEEEEEEECTTTCEEEEEEECTT..E..EEEEEEC.CCCHHHHHHHHHHHHHHHTTSCSEEEEEESSHHHHHHHHCCCHHHHHTT CS
+                   RNase_H   6 vytDGsclgnpgkggagavlyke..h.knisasle.eattnnraELeAvieALkalepskvniytDSqYvvkgitqwvegwkkng 86 
+                                y+D+s    ++k+++g++++    h   ++++    +++  +aEL A+  A++      v  +tD  ++++   ++v ++kk +
+  LOC_Os12g05160.1.MSUv7.0 164 CYVDASWE--HNKACIGIFFHLPatHnALFIKAFChLTESPLQAELLALQLAMEI---ALVLNFTDTIFLMD-CSTVVDTAKKGN 242
+                               69999955..778888987754444543344444337788889999999999995...456679********.777899999999 PP
+
+                               SSSETTSSBHTTHHHHHHHHHCHCSSEEEEEE-SCCSSSTHHHHHHHHHHHHH CS
+                   RNase_H  87 wkttseqkpvknkdlwellkelikkhkvslkwvkgHagnpkgNemaDklakqa 139
+                                ++  ++  +    +w ++ ++   h ++++w++ H      N+ aDklak+a
+  LOC_Os12g05160.1.MSUv7.0 243 FHEDPSHWSL--LPIWSQILTFLPGHLLKVHWIPRHL-----NKLADKLAKDA 288
+                               9776666444..46*****9**************995.....558*****987 PP
+
+>> LOC_Os12g33140.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.0   0.0   1.5e-06    0.0074       4      76 ..      63     141 ..      60     174 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 18.0 bits;  conditional E-value: 1.5e-06
+                               EEEEEEEEEECTTTCEEEEEEECTT.....E.EEEEEECCCCHHHHHHHHHHHHHHH.TT..SCSEEEEEESSHHHHHHHH CS
+                   RNase_H   4 vtvytDGsclgnpgkggagavlyke.....hknisasleeattnnraELeAvieALk.al..epskvniytDSqYvvkgit 76 
+                               + + +DGs ++  gkgg+gavl +            ++  ++++  +EL A +  L  al  +   ++i tD+  +++ + 
+  LOC_Os12g33140.1.MSUv7.0  63 MKLNVDGSFQESDGKGGIGAVLRNCtgeviF-AACGHVDRCSSALETELLACRDGLAlALqwTLLPIVIETDCLAMIH-LF 141
+                               66779****************9544344332.333455589***************988854448999*****87777.44 PP
+
+>> LOC_Os10g34140.1.MSUv7.0  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   0.0   3.4e-06     0.016       5      76 ..      87     165 ..      83     186 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 3.4e-06
+                               EEEEEEEEECTTTCEEEEEEE.CTT.E..EEEEEEC.CCCHHHHHHHHHHHHHHHTT...SCSEEEEEESSHHHHHHHH CS
+                   RNase_H   5 tvytDGsclgnpgkggagavl.yke.h.knisasle.eattnnraELeAvieALkal...epskvniytDSqYvvkgit 76 
+                                + +DG+ + +   gg+g+v+ + + h  +  a+ +  ++++  aE +A ++ L+a+      ++++ +DS  +++++ 
+  LOC_Os10g34140.1.MSUv7.0  87 KINVDGAFKHQLLLGGWGYVIrDVGaHvIQAGAGSSsRMQDAFHAEVMAGVKGLQAAanlGMANIQLESDSLTLIQALR 165
+                               5678***************99544476534444444599****************653433499*******99988654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (141 nodes)
+Target sequences:                      52398  (19537977 residues searched)
+Passed MSV filter:                      1369  (0.026127); expected 1048.0 (0.02)
+Passed bias filter:                     1101  (0.0210123); expected 1048.0 (0.02)
+Passed Vit filter:                        86  (0.00164128); expected 52.4 (0.001)
+Passed Fwd filter:                        21  (0.000400779); expected 0.5 (1e-05)
+Initial search space (Z):              52398  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 0.30u 0.01s 00:00:00.31 Elapsed: 00:00:00.11
+# Mc/sec: 23389.05
+//
+[ok]
+
+Running hmmsearch on database/proteins/Oryza_sativa.faa with model uploads/PF00075.hmm
+Filtered results saved in results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Oryza_sativa_filtered.txt
+Found 10 genes after filtering.
+Gene IDs written to results/analysis_Ambro_Oryza_Physco_Zea/found_genes_Oryza_sativa.txt
+
+============================================================
+New task started in results/analysis_Ambro_Oryza_Physco_Zea
+Start HMM search: Oryza_sativa.faa
+Filter: E=1e-2, Coverage=50, Min Length=20
+HMM search finished
+
+Task finished in results/analysis_Ambro_Oryza_Physco_Zea
+============================================================
+
+Sequences are merged in: results/analysis_Ambro_Oryza_Physco_Zea/combined_sequences.faa
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+rescale = 1
+All-to-all alignment.
+    0 / 19    1 / 19    2 / 19    3 / 19    4 / 19    5 / 19    6 / 19    7 / 19    8 / 19    9 / 19   10 / 19   11 / 19   12 / 19   13 / 19   14 / 19   15 / 19   16 / 19   17 / 19tbfast-pair (aa) Version 7.505
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 19   10 / 19
+done.
+
+Progressive alignment ... 
+STEP     1 /18 STEP     2 /18 STEP     3 /18 STEP     4 /18 STEP     5 /18 STEP     6 /18 STEP     7 /18 STEP     8 /18 STEP     9 /18 STEP    10 /18 STEP    11 /18 STEP    12 /18 STEP    13 /18 STEP    14 /18 STEP    15 /18 STEP    16 /18 STEP    17 /18 STEP    18 /18 
+done.
+tbfast (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+rescale = 1
+
+    0 / 19   10 / 19
+Segment   1/  1    1-2121
+STEP 001-001-0  rejected.STEP 001-001-1  identical.   STEP 001-002-0  rejected.STEP 001-002-1  accepted.STEP 001-003-0  accepted.STEP 001-003-1  accepted.STEP 001-004-0  rejected.STEP 001-004-1  rejected.STEP 001-005-0  rejected.STEP 001-005-1  rejected.STEP 001-006-0  accepted.STEP 001-006-1  accepted.STEP 001-007-0  accepted.STEP 001-007-1  rejected.STEP 001-008-0  rejected.STEP 001-008-1  accepted.STEP 001-009-0  rejected.STEP 001-009-1  rejected.STEP 001-010-0  rejected.STEP 001-010-1  rejected.STEP 001-011-0  rejected.STEP 001-011-1  rejected.STEP 001-012-0  rejected.STEP 001-012-1  accepted.STEP 001-013-0  accepted.STEP 001-013-1  accepted.STEP 001-014-0  rejected.STEP 001-014-1  rejected.STEP 001-015-0  rejected.STEP 001-015-1  rejected.STEP 001-016-0  rejected.STEP 001-016-1  accepted.STEP 001-017-0  accepted.STEP 001-017-1  rejected.STEP 001-018-1  rejected.STEP 002-018-1  rejected.STEP 002-017-0  identical.   STEP 002-017-1  rejected.STEP 002-016-0  rejected.STEP 002-016-1  accepted.STEP 002-015-0  rejected.STEP 002-015-1  rejected.STEP 002-014-0  rejected.STEP 002-014-1  rejected.STEP 002-013-0  rejected.STEP 002-013-1  accepted.STEP 002-012-0  accepted.STEP 002-012-1  rejected.STEP 002-011-0  rejected.STEP 002-011-1  rejected.STEP 002-010-0  rejected.STEP 002-010-1  accepted.STEP 002-009-0  rejected.STEP 002-009-1  accepted.STEP 002-008-0  rejected.STEP 002-008-1  accepted.STEP 002-007-0  rejected.STEP 002-007-1  rejected.STEP 002-006-0  rejected.STEP 002-006-1  accepted.STEP 002-005-0  rejected.STEP 002-005-1  rejected.STEP 002-004-0  rejected.STEP 002-004-1  rejected.STEP 002-003-0  rejected.STEP 002-003-1  rejected.STEP 002-002-0  rejected.STEP 002-002-1  identical.   STEP 002-001-0  accepted.STEP 002-001-1  accepted.STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  rejected.STEP 003-002-1  identical.   STEP 003-003-0  rejected.STEP 003-003-1  rejected.STEP 003-004-0  rejected.STEP 003-004-1  rejected.STEP 003-005-0  rejected.STEP 003-005-1  rejected.STEP 003-006-0  rejected.STEP 003-006-1  identical.   STEP 003-007-0  rejected.STEP 003-007-1  rejected.STEP 003-008-0  rejected.STEP 003-008-1  rejected.STEP 003-009-0  rejected.STEP 003-009-1  identical.   STEP 003-010-0  rejected.STEP 003-010-1  rejected.STEP 003-011-0  rejected.STEP 003-011-1  rejected.STEP 003-012-0  rejected.STEP 003-012-1  rejected.STEP 003-013-0  accepted.STEP 003-013-1  accepted.STEP 003-014-0  rejected.STEP 003-014-1  rejected.STEP 003-015-0  rejected.STEP 003-015-1  rejected.STEP 003-016-0  rejected.STEP 003-016-1  rejected.STEP 003-017-0  rejected.STEP 003-017-1  rejected.STEP 003-018-1  rejected.STEP 004-018-1  rejected.STEP 004-017-0  rejected.STEP 004-017-1  rejected.STEP 004-016-0  rejected.STEP 004-016-1  rejected.STEP 004-015-0  rejected.STEP 004-015-1  rejected.STEP 004-014-0  rejected.STEP 004-014-1  rejected.STEP 004-013-0  accepted.STEP 004-013-1  rejected.STEP 004-012-0  rejected.STEP 004-012-1  rejected.STEP 004-011-0  rejected.STEP 004-011-1  rejected.STEP 004-010-0  rejected.STEP 004-010-1  rejected.STEP 004-009-0  rejected.STEP 004-009-1  identical.   STEP 004-008-0  rejected.STEP 004-008-1  rejected.STEP 004-007-0  rejected.STEP 004-007-1  rejected.STEP 004-006-0  rejected.STEP 004-006-1  identical.   STEP 004-005-0  rejected.STEP 004-005-1  rejected.STEP 004-004-0  rejected.STEP 004-004-1  rejected.
+Oscillating.
+
+done
+dvtditr (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+Starting MAFFT on results/analysis_Ambro_Oryza_Physco_Zea/combined_sequences.faa...
+MAFFT completed: results/analysis_Ambro_Oryza_Physco_Zea/aligned.fasta
+
+============================================================
+New task started in results/analysis_Ambro_Oryza_Physco_Zea
+Start MAFFT Alignment...
+MAFFT finished
+
+Task finished in results/analysis_Ambro_Oryza_Physco_Zea
+============================================================
+
+FASTA file written: results/analysis_Ambro_Oryza_Physco_Zea/aligned_cleaned_strict.fasta
+Mapping saved: results/analysis_Ambro_Oryza_Physco_Zea/fasta_header_mapping.json
+FASTA file written: results/analysis_Ambro_Oryza_Physco_Zea/aligned_cleaned_strict.fasta
+Mapping saved: results/analysis_Ambro_Oryza_Physco_Zea/fasta_header_mapping.json
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: results/analysis_Ambro_Oryza_Physco_Zea/aligned_cleaned_strict.fasta
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.02 seconds
+Refining topology: 17 rounds ME-NNIs, 2 rounds ME-SPRs, 8 rounds ML-NNIs
+      0.10 seconds: ME NNI round 6 of 17, 1 of 17 splits
+Total branch-length 10.352 after 0.20 sec
+      0.40 seconds: ML NNI round 1 of 8, 1 of 17 splits
+ML-NNI round 1: LogLk = -20924.680 NNIs 3 max delta 1.81 Time 1.09
+      1.09 seconds: Site likelihoods with rate category 1 of 20
+      1.19 seconds: Site likelihoods with rate category 14 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.753 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -20225.116 NNIs 2 max delta 1.98 Time 1.73
+      1.72 seconds: ML NNI round 3 of 8, 1 of 17 splits
+ML-NNI round 3: LogLk = -20225.028 NNIs 0 max delta 0.00 Time 1.98
+Turning off heuristics for final round of ML NNIs (converged)
+      1.98 seconds: ML NNI round 4 of 8, 1 of 17 splits
+ML-NNI round 4: LogLk = -20223.313 NNIs 0 max delta 0.00 Time 2.68 (final)
+      2.67 seconds: ML Lengths 1 of 17 splits
+Optimize all lengths: LogLk = -20223.289 Time 2.86
+Total time: 3.53 seconds Unique: 19/19 Bad splits: 0/16
+Start FastTree with results/analysis_Ambro_Oryza_Physco_Zea/aligned_cleaned_strict.fasta...
+FastTree tree saved: results/analysis_Ambro_Oryza_Physco_Zea/phylo_tree.nwk
+
+============================================================
+New task started in results/analysis_Ambro_Oryza_Physco_Zea
+Start phylogeny creation based on: results/analysis_Ambro_Oryza_Physco_Zea/aligned.fasta
+FASTA cleaned – FastTree is started...
+Tree successfully created
+
+Task finished in results/analysis_Ambro_Oryza_Physco_Zea
+============================================================
+

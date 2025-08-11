@@ -1,0 +1,19 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0  -            261 RNase_H              PF00075.30   141     8e-12   46.1   0.1   1   1   4.9e-15   3.3e-11   44.1   0.1     9   139   130   250   124   252 0.69 -
+evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0  -            415 RNase_H              PF00075.30   141   1.5e-11   45.1   0.5   1   2       1.7   1.1e+04   -3.0   0.1   100   115   198   213   174   233 0.53 -
+evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0  -            415 RNase_H              PF00075.30   141   1.5e-11   45.1   0.5   2   2   5.3e-15   3.5e-11   44.0   0.0     8   101   264   363   257   387 0.72 -
+evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0 -            313 RNase_H              PF00075.30   141   6.3e-09   36.7   0.1   1   2      0.72   4.8e+03   -1.8   0.0    59    86    14    41     6    56 0.59 -
+evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0 -            313 RNase_H              PF00075.30   141   6.3e-09   36.7   0.1   2   2   1.5e-11     1e-07   32.8   0.0     8    87   149   235   144   270 0.71 -
+evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0  -            143 RNase_H              PF00075.30   141    0.0029   18.3   0.0   1   1   5.7e-07    0.0038   17.9   0.0     8    76    53   126    49   139 0.74 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      uploads/PF00075.hmm
+# Target file:     database/proteins/Amborella_trichipoda.faa
+# Option settings: hmmsearch --domtblout results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Amborella_trichipoda.txt -E 1e-2 uploads/PF00075.hmm database/proteins/Amborella_trichipoda.faa 
+# Current dir:     /home/fabian-hofbauer/Schreibtisch/Studying/Masterarbeit_HMM_Search/venv
+# Date:            Mon Aug 11 17:32:08 2025
+# [ok]

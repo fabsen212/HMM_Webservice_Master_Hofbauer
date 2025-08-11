@@ -1,0 +1,17 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Zm00001d032798_T001.RefGen_V4 -            292 RNase_H              PF00075.30   141   2.9e-09   40.0   0.0   1   2       2.3     1e+05   -3.9   0.0    66    75    60    69    59    71 0.81 -
+Zm00001d032798_T001.RefGen_V4 -            292 RNase_H              PF00075.30   141   2.9e-09   40.0   0.0   2   2   1.5e-13   6.6e-09   38.9   0.0     5    98   153   252   150   277 0.77 -
+Zm00001d049892_T001.RefGen_V4 -            237 RNase_H              PF00075.30   141   9.2e-06   28.7   0.0   1   1     3e-10   1.3e-05   28.1   0.0     8    81   126   205   121   236 0.71 -
+Zm00001d035750_T001.RefGen_V4 -            303 RNase_H              PF00075.30   141   4.3e-05   26.5   0.0   1   1   1.6e-09   7.1e-05   25.8   0.0     8    73   197   268   192   282 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      uploads/PF00075.hmm
+# Target file:     database/proteins/Zea_mays.faa
+# Option settings: hmmsearch --domtblout results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Zea_mays.txt -E 1e-2 uploads/PF00075.hmm database/proteins/Zea_mays.faa 
+# Current dir:     /home/fabian-hofbauer/Schreibtisch/Studying/Masterarbeit_HMM_Search/venv
+# Date:            Mon Aug 11 17:32:09 2025
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+evm_27.model.AmTr_v1.0_scaffold00060.150.v1.0 -            300 HipN                 PF18253.6     42   1.1e-05   25.6   0.0   1   1   1.1e-09   2.9e-05   24.3   0.0    21    42     1    22     1    22 0.96 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      uploads/PF18253.hmm
+# Target file:     database/proteins/Amborella_trichipoda.faa
+# Option settings: hmmsearch --domtblout results/test_oidaa1/hmmsearch_Amborella_trichipoda.txt -E 1e-3 uploads/PF18253.hmm database/proteins/Amborella_trichipoda.faa 
+# Current dir:     /home/fabian-hofbauer/Schreibtisch/Studying/Masterarbeit_HMM_Search/venv
+# Date:            Mon Aug 11 16:41:17 2025
+# [ok]

@@ -1,0 +1,11 @@
+flask
+flask-rq2
+redis
+rq
+requests
+biopython
+ete3
+pandas
+reportlab
+gunicorn
+

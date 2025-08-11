@@ -1,0 +1,5 @@
+AagrBONN_evm.model.Sc2ySwM_344.2062.2
+AagrBONN_evm.model.Sc2ySwM_344.2062.3
+AagrBONN_evm.model.Sc2ySwM_344.2062.4
+AagrBONN_evm.model.Sc2ySwM_344.2062.5
+rna-gnl|WGS:JABFUD|Adc21655.rna

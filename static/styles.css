@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.header {
+    background: #00a0df;
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+
+.nav-tabs {
+    background: #0077b6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+.nav-tabs a {
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-tabs a:hover {
+    background-color: #005f86;
+}
+
+.nav-tabs a.active {
+    background-color: #ffffff;
+    color: #023e8a;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+
+
+.big_content{
+    flex: 2;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;  /* wichtig: linksbündig */
+    gap: 20px;
+    padding: 20px;
+    margin-left: 0;     /* kein auto zentrieren */
+    margin-right: 0;
+    max-width: none;    /* falls vorher zentriert */
+}
+
+
+.content_home {
+    flex: 2;
+    background-color: wheat;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.content_upload {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.content_plant {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.content_filter {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.content_workflow {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.content_storage {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.content_add_delete{
+    background-color: gainsboro;
+    margin-left: 350px;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.phylo_tree_content {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.resulttable {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 700px;
+    height: 68vh; /* Feste Höhe nötig für Scrollbar */
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#results {
+    max-height: 60vh;      /* oder feste px-Angabe, z. B. 500px */
+    overflow-y: auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.download_content {
+    flex: 2;
+    background-color: gainsboro;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 1px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Fixierte Button-Zeile */
+.sticky-button-row {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: wheat;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Button-Design */
+.collapsible {
+    background-color: #005f86;
+    color: white;
+    cursor: pointer;
+    padding: 14px;
+    width: 280px;
+    min-width: 280px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.collapsible:hover {
+    background-color: #0077b6;
+}
+
+/* Expandable content */
+.collapsible-content {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+/* Area per section */
+.collapsible-section {
+    margin: 20px 0;
+}
+
+/* Vollbild für Phylo-Baum */
+.tree-fullscreen {
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+#svg-container svg {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.scrollable-tree-container {
+    max-height: 80vh;
+    overflow: auto;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 10px;
+}
+
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="file"] {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+

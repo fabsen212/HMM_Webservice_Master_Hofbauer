@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PAC:18062865         -            359 RNase_H              PF00075.30   141   9.6e-09   36.6   0.0   1   1   9.8e-13   1.9e-08   35.6   0.0     8   139   120   241   114   243 0.72 -
+PAC:18039203         -            236 RNase_H              PF00075.30   141   2.4e-07   32.1   0.0   1   1     2e-11   3.8e-07   31.4   0.0     9    87   116   197   109   224 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      uploads/PF00075.hmm
+# Target file:     database/proteins/Physcomitrium_patens.faa
+# Option settings: hmmsearch --domtblout results/analysis_Ambro_Oryza_Physco_Zea/hmmsearch_Physcomitrium_patens.txt -E 1e-2 uploads/PF00075.hmm database/proteins/Physcomitrium_patens.faa 
+# Current dir:     /home/fabian-hofbauer/Schreibtisch/Studying/Masterarbeit_HMM_Search/venv
+# Date:            Mon Aug 11 17:32:08 2025
+# [ok]

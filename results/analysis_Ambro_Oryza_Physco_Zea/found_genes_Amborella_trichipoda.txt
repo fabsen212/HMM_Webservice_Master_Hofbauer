@@ -1,0 +1,4 @@
+evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0
+evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0
+evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0
+evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0

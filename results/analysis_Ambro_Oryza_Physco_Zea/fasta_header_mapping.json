@@ -1,0 +1,21 @@
+{
+    "seq1_ChrSy.fgenesh.mRNA.77.MSUv7.0": "ChrSy.fgenesh.mRNA.77.MSUv7.0",
+    "seq2_ChrUn.fgenesh.mRNA.11.MSUv7.0": "ChrUn.fgenesh.mRNA.11.MSUv7.0",
+    "seq3_LOC_Os02g06215.1.MSUv7.0": "LOC_Os02g06215.1.MSUv7.0",
+    "seq4_LOC_Os02g07860.1.MSUv7.0": "LOC_Os02g07860.1.MSUv7.0",
+    "seq5_LOC_Os08g09440.1.MSUv7.0": "LOC_Os08g09440.1.MSUv7.0",
+    "seq6_LOC_Os08g19890.1.MSUv7.0": "LOC_Os08g19890.1.MSUv7.0",
+    "seq7_LOC_Os10g34140.1.MSUv7.0": "LOC_Os10g34140.1.MSUv7.0",
+    "seq8_LOC_Os12g05160.1.MSUv7.0": "LOC_Os12g05160.1.MSUv7.0",
+    "seq9_LOC_Os12g31630.1.MSUv7.0": "LOC_Os12g31630.1.MSUv7.0",
+    "seq10_LOC_Os12g33140.1.MSUv7.0": "LOC_Os12g33140.1.MSUv7.0",
+    "seq11_evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0": "evm_27.model.AmTr_v1.0_scaffold00025.299.v1.0",
+    "seq12_evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0": "evm_27.model.AmTr_v1.0_scaffold00058.15.v1.0",
+    "seq13_evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0": "evm_27.model.AmTr_v1.0_scaffold00099.41.v1.0",
+    "seq14_evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0": "evm_27.model.AmTr_v1.0_scaffold00158.22.v1.0",
+    "seq15_PAC--18062865": "PAC--18062865",
+    "seq16_PAC--18039203": "PAC--18039203",
+    "seq17_Zm00001d032798_T001.RefGen_V4": "Zm00001d032798_T001.RefGen_V4",
+    "seq18_Zm00001d049892_T001.RefGen_V4": "Zm00001d049892_T001.RefGen_V4",
+    "seq19_Zm00001d035750_T001.RefGen_V4": "Zm00001d035750_T001.RefGen_V4"
+}

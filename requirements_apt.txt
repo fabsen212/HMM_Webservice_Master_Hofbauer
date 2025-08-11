@@ -1,0 +1,5 @@
+mafft
+seqkit
+fasttree
+hmmer
+redis-server

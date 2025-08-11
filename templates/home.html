@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-wrapper">
+    <div class="content_home">
+        <h2>Welcome to the webservice for searching gene families in plants</h2>
+
+        <p>This application allows you to upload protein sequences, create HMMs (or use Pfam models), perform domain searches, compute alignments, and generate phylogenetic trees – 
+            all within a web interface featuring tree and result visualization and report download capabilities.</p>
+
+        <h4>What can this tool do?</h4>
+        <ol>
+            <il>
+                <li><strong>HMM search</strong> against plant protein databases</li>
+                <li>Use a <strong>Pfam ID</strong> or upload your HMM-File</li>
+                <li><strong>Sequence alignment</strong> via MAFFT</li>
+                <li><strong>Automatic generation of phylogenetic trees</strong> using FastTree</li>
+                <li><strong>Tree visualization with ASCII</strong></li>
+                <li><strong>Download results</strong> as PDF, CSV, or Newick format</li>
+                <li>Use <strong>Newick file</strong> on other visualization websites like tree viewer of ete3 </li>
+            </il>
+        </ol>
+
+        <h4>Typical use cases:</h4>
+        <ul>
+            <li>Homology analysis of proteins from different plant species</li>
+            <li>Detection of functional domains via Pfam profiles</li>
+            <li>Evolutionary comparison of sequence families and their structure</li>
+        </ul>
+
+        <h4>How does it work?</h4>
+        <ol>
+            <li>Switch to the Search tab</li>
+            <li>Upload <abbr title="Hidden Markov Model – a statistical model used to describe biological sequence patterns">HMM</abbr> files <em>or</em> 
+            enter a <abbr title="Pfam ID – an identifier for a predefined protein domain model from the Pfam database">Pfam ID</abbr></li>
+            <li>Select target species</li>
+            <li>Enable alignment and tree generation</li>
+            <li>Start the analysis</li>
+            <li>Visualize and download results</li>
+        </ol>
+    </div>
+</div>
+{% endblock %}
